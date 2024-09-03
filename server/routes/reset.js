@@ -20,6 +20,13 @@ router.get("/all", async (req, res) => {
     const backupFile = path.join(__dirname, `../api/${api}.json.backup`);
     const mainFile = path.join(__dirname, `../api/${api}.json`);
 
+    // remove all files containing hash
+    fs.readdirSync(path.join(__dirname, "../api")).forEach((file) => {
+      if (file.includes(`${api}_`)) {
+        fs.unlinkSync(path.join(__dirname, `../api/${file}`));
+      }
+    });
+
     fs.copyFile(backupFile, mainFile, (err) => {
       if (err) {
         console.log(err);
