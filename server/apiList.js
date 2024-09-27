@@ -260,7 +260,7 @@ module.exports = [
     endPoints: ["goodJokes"],
   },
   {
-    id: 25,
+    id: 26,
     title: "Bitcoin (historical data)",
     longDesc: "You've wanted it and now we got it. Going back from January 2022 to August 2010",
     desc: "Bitcoin Historical Data from August 2010 to January 2022",
@@ -268,4 +268,13 @@ module.exports = [
     graphLink: "bitcoin/graphql",
     endPoints: ["historical_prices"],
   },
+  {
+    id: 27,
+    title: "Pokemon",
+    longDesc: "Pokemon",
+    desc: "Pokemon",
+    link: "pokemon",
+    graphLink: "pokemon/graphql",
+    endPoints: ["pokemon"],
+  }
 ];
