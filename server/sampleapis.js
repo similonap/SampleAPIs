@@ -1,9 +1,11 @@
 const express = require("express");
+const expressOasGenerator = require('express-oas-generator');
 const path = require("path");
 const cors = require("cors");
 
 // Express App
 const app = express();
+expressOasGenerator.handleResponses(app, {});
 const port = process.env.PORT || 5555;
 
 // JSON Parser
@@ -13,7 +15,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Static Files
-app.use(express.static(path.join(__dirname, "/public")));
+app.use("/api", express.static(path.join(__dirname, "/public")));
+
+
 
 // View Engine
 app.set("view engine", "pug");
@@ -63,6 +67,12 @@ app.use("/create", create);
 app.use("/generate", generateNewAPIListData);
 app.use("/test",test);
 app.use("/", baseApis);
+
+
+/** initialize your `app` and routes */
+
+/** place handleRequests as the very last middleware */
+expressOasGenerator.handleRequests();
 
 // Starting App
 app.listen(port, () => {

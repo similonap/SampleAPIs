@@ -14,10 +14,13 @@ const GeneratedAPIList = require("../GeneratedAPIList");
 const init = async () => {
   GeneratedAPIList.forEach(({ link }) => {
     router.use(`/${link}`, verifyData, apiLimits, (req, res, next) => {
+
       let hash = req.headers["x-hash"];
 
       const dataPath = path.join(__dirname, `../api/${link}.json`);
       const dataPathWithHash = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
+
+      console.log(dataPath);
 
       if (!fs.existsSync(dataPathWithHash)) {
         fs.cpSync(dataPath, dataPathWithHash);

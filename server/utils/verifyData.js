@@ -55,7 +55,8 @@ const verifyData = (req, res, next) => {
 
   } catch (ex) {
          //console.log("invalid data sent in: ",body)
-        return res.json({
+       console.log(ex);
+	  return res.json({
           error: 500,
           message:
             `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!`,
