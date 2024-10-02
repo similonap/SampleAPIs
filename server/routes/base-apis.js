@@ -13,6 +13,17 @@ const GeneratedAPIList = require("../GeneratedAPIList");
 
 const init = async () => {
   GeneratedAPIList.forEach(({ link }) => {
+    const dataPath = path.join(__dirname, `../api/${link}.json`);
+    const data = getFromFile(dataPath);
+
+    try {
+      router.use(`/${link}/graphql`, apiLimits, jsonGraphqlExpress.default(data));
+    } catch (err) {
+      console.log(`Unable to set up /${link}/graphql`);
+      console.error(err);
+    }
+  });
+  GeneratedAPIList.forEach(({ link }) => {
     router.use(`/${link}`, verifyData, apiLimits, (req, res, next) => {
 
       let hash = req.headers["x-hash"];
@@ -20,14 +31,13 @@ const init = async () => {
       const dataPath = path.join(__dirname, `../api/${link}.json`);
       const dataPathWithHash = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
 
-      console.log(dataPath);
-
       if (!fs.existsSync(dataPathWithHash)) {
         fs.cpSync(dataPath, dataPathWithHash);
       }
 
+
       jsonServer.router(dataPathWithHash)(req, res, next);
-      req.next();
+      // req.next();
     });
    
   });

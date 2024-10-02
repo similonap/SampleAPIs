@@ -1,4 +1,13 @@
 {
+  "metaData": [
+    {
+      "title": "Pokemon",
+      "longDesc": "Because Pokeapi.co is kinda difficult? I guess? I don't know, I just wanted to make a thing.",
+      "desc": "A pokemon API that is not Pokeapi.co",
+      "featured": false,
+      "categories": ["cartoon", "tv", "entertainment", "products"]
+    }
+  ],
   "pokemon": [
     {
       "name": "bulbasaur",

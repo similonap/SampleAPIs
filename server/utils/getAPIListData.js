@@ -24,7 +24,9 @@ const getAPIListData = async () => {
 const generateAPIListData = async () => {
   let files = await fs.readdirSync(directoryPath);
   files = files.filter((f) => !f.includes(".backup"));
+  files = files.filter((f) => !f.includes("_"));
   const apiData = files.map((file) => {
+    console.log(file);
     const data = JSON.parse(fs.readFileSync(path.join(__dirname, `../api/${file}`)));
     const endpoints = Object.keys(data);
     const metaData = data.metaData[0];
