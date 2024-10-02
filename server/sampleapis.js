@@ -2,6 +2,7 @@ const express = require("express");
 const expressOasGenerator = require('express-oas-generator');
 const path = require("path");
 const cors = require("cors");
+const GeneratedAPIList = require("./GeneratedAPIList");
 
 // Express App
 const app = express();
@@ -56,16 +57,14 @@ const generateNewAPIListData = async (req, res) => {
 //* The `apiList.js` will be removed in future versions.
 const ApiList = require("./apiList");
 app.get("/", (req, res) => {
-  res.render("index", {
-    apiList: JSON.stringify(ApiList),
-  });
+  res.json(GeneratedAPIList);
 });
 
-app.use("/resetit", reset);
-app.use("/create", create);
+// app.use("/resetit", reset);
+// app.use("/create", create);
 // app.use("/custom", custom);
-app.use("/generate", generateNewAPIListData);
-app.use("/test",test);
+// app.use("/generate", generateNewAPIListData);
+// app.use("/test",test);
 app.use("/", baseApis);
 
 
