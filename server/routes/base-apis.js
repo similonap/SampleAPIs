@@ -31,6 +31,16 @@ const init = async () => {
       const dataPath = path.join(__dirname, `../api/${link}.json`);
       const dataPathWithHash = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
 
+      if (!hash && (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE")) {
+        res.status(400).json({
+          response: 400,
+          data: {
+            message: "You can only use POST, PUT, PATCH, DELETE methods with a x-hash header",
+          },
+        });
+        return;
+      }
+
       if (!fs.existsSync(dataPathWithHash)) {
         fs.cpSync(dataPath, dataPathWithHash);
       }
@@ -39,7 +49,7 @@ const init = async () => {
       jsonServer.router(dataPathWithHash)(req, res, next);
       // req.next();
     });
-   
+
   });
 };
 
