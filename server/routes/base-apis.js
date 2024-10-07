@@ -25,7 +25,7 @@ const init = async () => {
     }
   });
   GeneratedAPIList.forEach(({ link }) => {
-    router.use(`/${link}`, authorize, verifyData, apiLimits, (req, res, next) => {
+    router.use(`/${link}`, verifyData, apiLimits, (req, res, next) => {
 
       let hash = req.headers["authorization"];
       if (hash) {
