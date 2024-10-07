@@ -25,7 +25,7 @@ const init = async () => {
     }
   });
   GeneratedAPIList.forEach(({ link }) => {
-    router.use(`/${link}`, verifyData, apiLimits, (req, res, next) => {
+    router.use(`/${link}`, authorize, verifyData, apiLimits, (req, res, next) => {
 
       let hash = req.headers["authorization"];
       if (hash) {
@@ -45,7 +45,8 @@ const init = async () => {
         }
       }
 
-      let dataPath = path.join(__dirname, `../api/${link}.json`);
+      const dataPath = path.join(__dirname, `../api/${link}.json`);
+      const dataPathWithHash = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
 
       if (!hash && (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE")) {
         res.status(400).json({
@@ -57,16 +58,11 @@ const init = async () => {
         return;
       }
 
-      if (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE") {
-        let previousDataPath = dataPath;
-        dataPath = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
-
-        if (!fs.existsSync(dataPath)) {
-          fs.cpSync(previousDataPath, dataPath);
-        }
+      if (!fs.existsSync(dataPathWithHash)) {
+        fs.cpSync(dataPath, dataPathWithHash);
       }
 
-      jsonServer.router(dataPath)(req, res, next);
+      jsonServer.router(dataPathWithHash)(req, res, next);
       // req.next();
     });
 
