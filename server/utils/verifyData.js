@@ -1,10 +1,11 @@
- const path = require("path");
- const { getFromFile } = require("./utils");
+const path = require("path");
+const { getFromFile } = require("./utils");
 
 const verifyData = (req, res, next) => {
   const { method, originalUrl, body } = req;
   try {
-    const [baseParent, endPoint] = originalUrl.split("/").filter((d) => d);
+    const pathNameWithoutQuery = originalUrl.split("?")[0];
+    const [baseParent, endPoint] = pathNameWithoutQuery.split("/").filter((d) => d);
     const dataPath = path.join(__dirname, `../api/${baseParent}.json`);
     const data = getFromFile(dataPath)[endPoint][0];
 
@@ -54,14 +55,14 @@ const verifyData = (req, res, next) => {
     }
 
   } catch (ex) {
-         //console.log("invalid data sent in: ",body)
-       console.log(ex);
-	  return res.json({
-          error: 500,
-          message:
-            `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!`,
-          received: body,
-        });
+    //console.log("invalid data sent in: ",body)
+    console.log(ex);
+    return res.json({
+      error: 500,
+      message:
+        `Unexpected data sent in! ${method} NOT accepted. Please send valid data next time!`,
+      received: body,
+    });
 
 
   } // end of try 

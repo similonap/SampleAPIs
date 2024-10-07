@@ -3,6 +3,7 @@ const expressOasGenerator = require('express-oas-generator');
 const path = require("path");
 const cors = require("cors");
 const GeneratedAPIList = require("./GeneratedAPIList");
+const register = require("./routes/generate-key");
 
 // Express App
 const app = express();
@@ -16,9 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Static Files
-app.use("/api", express.static(path.join(__dirname, "/public")));
-
-
+app.use("/", express.static(path.join(__dirname, "/public")));
 
 // View Engine
 app.set("view engine", "pug");
@@ -52,10 +51,8 @@ const generateNewAPIListData = async (req, res) => {
   });
 };
 
-//! Deprecation Notice
-//* This is to serve the old static design site.
-//* The `apiList.js` will be removed in future versions.
 const ApiList = require("./apiList");
+
 app.get("/", (req, res) => {
   res.json(GeneratedAPIList);
 });
@@ -65,6 +62,7 @@ app.get("/", (req, res) => {
 // app.use("/custom", custom);
 // app.use("/generate", generateNewAPIListData);
 // app.use("/test",test);
+app.use("/register", register);
 app.use("/", baseApis);
 
 

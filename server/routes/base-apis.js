@@ -7,6 +7,7 @@ const fs = require("fs");
 
 const { apiLimits } = require("../utils/rateLimiterDefaults");
 const { getFromFile } = require("../utils/utils");
+const { decrypt } = require("../encryption");
 
 const { verifyData } = require("../utils/verifyData");
 const GeneratedAPIList = require("../GeneratedAPIList");
@@ -26,27 +27,52 @@ const init = async () => {
   GeneratedAPIList.forEach(({ link }) => {
     router.use(`/${link}`, verifyData, apiLimits, (req, res, next) => {
 
-      let hash = req.headers["x-hash"];
+      let hash = req.headers["authorization"];
+      if (hash) {
+        if (hash.includes("Bearer ")) {
+          hash = hash.split("Bearer ")[1];
+          try {
+            let email = decrypt(hash);
+          } catch (e) {
+            res.status(401).json({
+              response: 401,
+              data: {
+                message: "Invalid Authorization header",
+              },
+            });
+            return;
+          }
+        }
+      }
 
-      const dataPath = path.join(__dirname, `../api/${link}.json`);
-      const dataPathWithHash = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
+      let dataPath = path.join(__dirname, `../api/${link}.json`);
 
       if (!hash && (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE")) {
         res.status(400).json({
           response: 400,
           data: {
-            message: "You can only use POST, PUT, PATCH, DELETE methods with a x-hash header",
+            message: "You can only use POST, PUT, PATCH, DELETE methods without an Authorization header.",
           },
         });
         return;
       }
 
-      if (!fs.existsSync(dataPathWithHash)) {
-        fs.cpSync(dataPath, dataPathWithHash);
+      if (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE") {
+        dataPath = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
+
+        if (!fs.existsSync(dataPathWithHash)) {
+          fs.cpSync(dataPath, dataPathWithHash);
+        }
       }
 
+      if (req.query._page === undefined) {
+        req.query._page = 1;
+      }
+      if (req.query._limit === undefined) {
+        req.query._limit = 20;
+      }
 
-      jsonServer.router(dataPathWithHash)(req, res, next);
+      jsonServer.router(dataPath)(req, res, next);
       // req.next();
     });
 
