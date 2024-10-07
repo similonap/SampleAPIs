@@ -62,7 +62,7 @@ const init = async () => {
         dataPath = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
 
         if (!fs.existsSync(dataPath)) {
-          fs.cpSync(previousDataPath, dataPathWithHash);
+          fs.cpSync(previousDataPath, dataPath);
         }
       }
 
