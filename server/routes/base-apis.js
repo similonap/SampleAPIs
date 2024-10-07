@@ -66,13 +66,6 @@ const init = async () => {
         }
       }
 
-      if (req.query._page === undefined) {
-        req.query._page = 1;
-      }
-      if (req.query._limit === undefined) {
-        req.query._limit = 20;
-      }
-
       jsonServer.router(dataPath)(req, res, next);
       // req.next();
     });
