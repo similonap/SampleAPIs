@@ -58,10 +58,11 @@ const init = async () => {
       }
 
       if (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE") {
+        let previousDataPath = dataPath;
         dataPath = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
 
-        if (!fs.existsSync(dataPathWithHash)) {
-          fs.cpSync(dataPath, dataPathWithHash);
+        if (!fs.existsSync(dataPath)) {
+          fs.cpSync(previousDataPath, dataPathWithHash);
         }
       }
 
