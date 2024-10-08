@@ -4,6 +4,12 @@ const path = require("path");
 const cors = require("cors");
 const GeneratedAPIList = require("./GeneratedAPIList");
 const register = require("./routes/generate-key");
+const { JWT_SECRET } = require("./config");
+
+if (!JWT_SECRET) {
+  console.log("JWT_SECRET is not set properly");
+  process.exit(1);
+}
 
 // Express App
 const app = express();
