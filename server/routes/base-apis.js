@@ -12,6 +12,30 @@ const jwt = require('jsonwebtoken');
 const { verifyData } = require("../utils/verifyData");
 const GeneratedAPIList = require("../GeneratedAPIList");
 
+const authorizationMiddleware = (req, res, next) => {
+  try {
+    let authorization = req.headers["authorization"];
+    if (authorization.includes("Bearer ")) {
+      authorization = authorization.split("Bearer ")[1];
+
+      let email = jwt.decode(authorization, JWT_SECRET).email;
+      // store email in req object
+      req.email = email;
+
+    }
+    next();
+  } catch (e) {
+    res.status(401).json({
+      response: 401,
+      data: {
+        message: "You are not authorized to access this resource",
+      },
+    });
+    return;
+  }
+}
+
+
 const init = async () => {
   GeneratedAPIList.forEach(({ link }) => {
     const dataPath = path.join(__dirname, `../api/${link}.json`);
@@ -25,39 +49,10 @@ const init = async () => {
     }
   });
   GeneratedAPIList.forEach(({ link }) => {
-    router.use(`/${link}`, verifyData, apiLimits, (req, res, next) => {
-
-      let authorization = req.headers["authorization"];
-      let email = undefined;
-      if (authorization) {
-        if (authorization.includes("Bearer ")) {
-          authorization = authorization.split("Bearer ")[1];
-          try {
-            email = jwt.decode(authorization, JWT_SECRET).email;
-          } catch (e) {
-            res.status(401).json({
-              response: 401,
-              data: {
-                message: "Invalid Authorization header",
-              },
-            });
-            return;
-          }
-        }
-      }
-
+    router.use(`/${link}`, authorizationMiddleware, verifyData, apiLimits, (req, res, next) => {
+      const email = req.email;
       const dataPath = path.join(__dirname, `../api/${link}.json`);
       const dataPathWithEmail = email ? path.join(__dirname, `../api/${link}_${email}.json`) : dataPath;
-
-      if (!email && (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE")) {
-        res.status(400).json({
-          response: 400,
-          data: {
-            message: "You can only use POST, PUT, PATCH, DELETE methods without an Authorization header.",
-          },
-        });
-        return;
-      }
 
       if (!fs.existsSync(dataPathWithEmail)) {
         fs.cpSync(dataPath, dataPathWithEmail);
