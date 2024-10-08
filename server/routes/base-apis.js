@@ -7,8 +7,8 @@ const fs = require("fs");
 
 const { apiLimits } = require("../utils/rateLimiterDefaults");
 const { getFromFile } = require("../utils/utils");
-const { decrypt } = require("../encryption");
-
+const { JWT_SECRET } = require("../config");
+const jwt = require('jsonwebtoken');
 const { verifyData } = require("../utils/verifyData");
 const GeneratedAPIList = require("../GeneratedAPIList");
 
@@ -27,12 +27,13 @@ const init = async () => {
   GeneratedAPIList.forEach(({ link }) => {
     router.use(`/${link}`, verifyData, apiLimits, (req, res, next) => {
 
-      let hash = req.headers["authorization"];
-      if (hash) {
-        if (hash.includes("Bearer ")) {
-          hash = hash.split("Bearer ")[1];
+      let authorization = req.headers["authorization"];
+      let email = undefined;
+      if (authorization) {
+        if (authorization.includes("Bearer ")) {
+          authorization = authorization.split("Bearer ")[1];
           try {
-            let email = decrypt(hash);
+            email = jwt.decode(authorization, JWT_SECRET).email;
           } catch (e) {
             res.status(401).json({
               response: 401,
@@ -46,9 +47,9 @@ const init = async () => {
       }
 
       const dataPath = path.join(__dirname, `../api/${link}.json`);
-      const dataPathWithHash = hash ? path.join(__dirname, `../api/${link}_${hash}.json`) : dataPath;
+      const dataPathWithEmail = email ? path.join(__dirname, `../api/${link}_${email}.json`) : dataPath;
 
-      if (!hash && (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE")) {
+      if (!email && (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE")) {
         res.status(400).json({
           response: 400,
           data: {
@@ -58,11 +59,11 @@ const init = async () => {
         return;
       }
 
-      if (!fs.existsSync(dataPathWithHash)) {
-        fs.cpSync(dataPath, dataPathWithHash);
+      if (!fs.existsSync(dataPathWithEmail)) {
+        fs.cpSync(dataPath, dataPathWithEmail);
       }
 
-      jsonServer.router(dataPathWithHash)(req, res, next);
+      jsonServer.router(dataPathWithEmail)(req, res, next);
       // req.next();
     });
 

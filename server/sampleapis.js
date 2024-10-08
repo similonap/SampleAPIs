@@ -62,7 +62,7 @@ app.get("/", (req, res) => {
 // app.use("/custom", custom);
 // app.use("/generate", generateNewAPIListData);
 // app.use("/test",test);
-app.use("/register", register);
+app.use("/token", register);
 app.use("/", baseApis);
 
 

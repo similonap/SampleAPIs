@@ -1,34 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const { encrypt, decrypt } = require("../encryption");
-
-router.get("/verify", async (req, res) => {
-    const { apiKey } = req.query;
-
-    if (!apiKey) {
-        res.status(400).json({
-            response: 400,
-            data: {
-                message: "API Key is required",
-            },
-        });
-        return;
-    }
-
-    try {
-        const decryptedEmail = decrypt(apiKey);
-        res.json({ decryptedEmail });
-    } catch (error) {
-        console.error("Decryption error:", error);
-        res.status(500).json({
-            response: 500,
-            data: {
-                message: "Failed to decrypt API Key",
-            },
-        });
-    }
-});
-
+const jwt = require('jsonwebtoken');
+const { JWT_SECRET } = require("../config");
 
 router.get("/", async (req, res) => {
     const { email } = req.query;
@@ -43,15 +16,26 @@ router.get("/", async (req, res) => {
         return;
     }
 
+    if (!email.includes("@ap.be") && !email.includes("@student.ap.be")) {
+        res.status(400).json({
+            response: 400,
+            data: {
+                message: "This email is not allowed",
+            },
+        });
+        return;
+    }
+
     try {
-        const apiKey = encrypt(email);
-        res.json({ apiKey });
+        const token = jwt.sign({ email: email }, JWT_SECRET);
+
+        res.json({ token });
     } catch (error) {
-        console.error("Encryption error:", error);
+        console.log(error);
         res.status(500).json({
             response: 500,
             data: {
-                message: "Failed to encrypt email",
+                message: "Failed to generate token",
             },
         });
     }
