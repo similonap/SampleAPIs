@@ -13,26 +13,27 @@ const { verifyData } = require("../utils/verifyData");
 const GeneratedAPIList = require("../GeneratedAPIList");
 
 const authorizationMiddleware = (req, res, next) => {
-  try {
-    let authorization = req.headers["authorization"];
+  let authorization = req.headers["authorization"];
+  if (authorization) {
     if (authorization.includes("Bearer ")) {
       authorization = authorization.split("Bearer ")[1];
-
-      let email = jwt.decode(authorization, JWT_SECRET).email;
-      // store email in req object
-      req.email = email;
-
+      try {
+        let email = jwt.decode(authorization, JWT_SECRET).email;
+        // store email in req object
+        req.email = email;
+      } catch (e) {
+        res.status(401).json({
+          response: 401,
+          data: {
+            message: "Invalid Authorization header",
+          },
+        });
+        return;
+      }
     }
-    next();
-  } catch (e) {
-    res.status(401).json({
-      response: 401,
-      data: {
-        message: "You are not authorized to access this resource",
-      },
-    });
-    return;
   }
+  req.email = undefined
+  next();
 }
 
 
