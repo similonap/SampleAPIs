@@ -32,7 +32,6 @@ const authorizationMiddleware = (req, res, next) => {
       }
     }
   }
-  req.email = undefined
   next();
 }
 
@@ -54,6 +53,16 @@ const init = async () => {
       const email = req.email;
       const dataPath = path.join(__dirname, `../api/${link}.json`);
       const dataPathWithEmail = email ? path.join(__dirname, `../api/${link}_${email}.json`) : dataPath;
+
+      if (!email && (req.method === "POST" || req.method === "PUT" || req.method === "PATCH" || req.method === "DELETE")) {
+        res.status(400).json({
+          response: 400,
+          data: {
+            message: "You must be authenticated to perform this action",
+          },
+        });
+        return;
+      }
 
       if (!fs.existsSync(dataPathWithEmail)) {
         fs.cpSync(dataPath, dataPathWithEmail);
