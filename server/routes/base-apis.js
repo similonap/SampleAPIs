@@ -18,7 +18,7 @@ const authorizationMiddleware = (req, res, next) => {
     if (authorization.includes("Bearer ")) {
       authorization = authorization.split("Bearer ")[1];
       try {
-        let email = jwt.decode(authorization, JWT_SECRET).email;
+        let email = jwt.verify(authorization, JWT_SECRET).email;
         // store email in req object
         req.email = email;
       } catch (e) {
