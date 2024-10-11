@@ -8,7 +8,7 @@
       "categories": ["sports", "stats"]
     }
   ],
-  "passingyards-singleseason": [
+  "passingyardsSingleseason": [
     {
       "Rank": "1",
       "Player": "Peyton Manning",
@@ -2260,7 +2260,7 @@
       "id": 250
     }
   ],
-  "passingyards-career": [
+  "passingyardsCareer": [
     {
       "Rank": "1",
       "Player": "Peyton Manning",
@@ -4262,7 +4262,7 @@
       "id": 250
     }
   ],
-  "passingtd-singleseason": [
+  "passingtdSingleseason": [
     {
       "Rank": "1",
       "Player": "Peyton Manning",
@@ -6568,7 +6568,7 @@
       "id": 256
     }
   ],
-  "passingtd-career": [
+  "passingtdCareer": [
     {
       "Rank": "1",
       "Player": "Peyton Manning",

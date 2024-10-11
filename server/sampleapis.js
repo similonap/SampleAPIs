@@ -66,7 +66,7 @@ app.get("/", (req, res) => {
 // app.use("/resetit", reset);
 // app.use("/create", create);
 // app.use("/custom", custom);
-// app.use("/generate", generateNewAPIListData);
+app.use("/generate", generateNewAPIListData);
 // app.use("/test",test);
 app.use("/token", register);
 app.use("/", baseApis);

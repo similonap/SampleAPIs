@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 function getFromFile(fileName) {
-  let rawData = fs.readFileSync(fileName);
+  let rawData = fs.readFileSync(fileName, "utf8");
   let parsedData = JSON.parse(rawData);
   traverse(parsedData);
   return parsedData;

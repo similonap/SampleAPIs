@@ -7,6 +7,7 @@ const verifyData = (req, res, next) => {
     const pathNameWithoutQuery = originalUrl.split("?")[0];
     const [baseParent, endPoint] = pathNameWithoutQuery.split("/").filter((d) => d);
     const dataPath = path.join(__dirname, `../api/${baseParent}.json`);
+
     const data = getFromFile(dataPath)[endPoint][0];
 
     const dataKeys = Object.keys(data);
