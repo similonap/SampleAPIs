@@ -1,0 +1,144 @@
+{
+    "metaData": {
+        "title": "UFO Sightings",
+        "longDesc": "A collection of reported UFO sightings from around the world.",
+        "desc": "A collection of reported UFO sightings from around the world.",
+        "featured": false,
+        "categories": [
+            "science",
+            "mystery"
+        ]
+    },
+    "sightings": [
+        {
+            "id": 1,
+            "witnessName": "Ahmed Khan",
+            "location": {
+                "latitude": 80.490381,
+                "longitude": -141.209075
+            },
+            "description": "It looked like a glowing orb that changed colors and direction.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "unconfirmed",
+            "dateTime": "2023-12-07T21:13:05.474113",
+            "witnessContact": "ahmed.khan@example.com"
+        },
+        {
+            "id": 2,
+            "witnessName": "Mikhail Ivanov",
+            "location": {
+                "latitude": 68.819099,
+                "longitude": 34.644367
+            },
+            "description": "It looked like a triangular aircraft with bright lights at each corner.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "confirmed",
+            "dateTime": "2024-06-17T16:54:32.474145",
+            "witnessContact": "mikhail.ivanov@example.com"
+        },
+        {
+            "id": 3,
+            "witnessName": "Emilia Rossi",
+            "location": {
+                "latitude": -43.387435,
+                "longitude": -141.256948
+            },
+            "description": "The object emitted a low humming sound and was shaped like a cigar.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "confirmed",
+            "dateTime": "2024-07-18T13:41:11.474159",
+            "witnessContact": "emilia.rossi@example.com"
+        },
+        {
+            "id": 4,
+            "witnessName": "Carlos Ruiz",
+            "location": {
+                "latitude": 73.921345,
+                "longitude": 73.650928
+            },
+            "description": "It looked like a glowing orb that changed colors and direction.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "confirmed",
+            "dateTime": "2023-12-21T02:49:38.474171",
+            "witnessContact": "carlos.ruiz@example.com"
+        },
+        {
+            "id": 5,
+            "witnessName": "Carlos Ruiz",
+            "location": {
+                "latitude": 2.170315,
+                "longitude": 80.37299
+            },
+            "description": "A strange craft landed in a nearby field. It was silent and glowing.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "unconfirmed",
+            "dateTime": "2023-12-20T18:04:18.474182",
+            "witnessContact": "carlos.ruiz@example.com"
+        },
+        {
+            "id": 6,
+            "witnessName": "Sophia Martinez",
+            "location": {
+                "latitude": -34.9285,
+                "longitude": 138.6007
+            },
+            "description": "A large, disk-shaped object with a bright light in the center, hovering silently.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "unconfirmed",
+            "dateTime": "2024-01-15T23:45:22.374100",
+            "witnessContact": "sophia.martinez@example.com"
+        },
+        {
+            "id": 7,
+            "witnessName": "Liam Johnson",
+            "location": {
+                "latitude": 60.4720,
+                "longitude": 8.4689
+            },
+            "description": "A group of glowing spheres flying in a V-formation across the night sky.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "confirmed",
+            "dateTime": "2024-03-02T03:12:46.584200",
+            "witnessContact": "liam.johnson@example.com"
+        },
+        {
+            "id": 8,
+            "witnessName": "Isabella Schmidt",
+            "location": {
+                "latitude": 52.5200,
+                "longitude": 13.4049
+            },
+            "description": "A fast-moving object shaped like a cylinder, glowing green and red, moving horizontally across the sky.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "unconfirmed",
+            "dateTime": "2024-04-21T19:33:10.294123",
+            "witnessContact": "isabella.schmidt@example.com"
+        },
+        {
+            "id": 9,
+            "witnessName": "Chen Wei",
+            "location": {
+                "latitude": 31.2304,
+                "longitude": 121.4737
+            },
+            "description": "A silent, black triangle with lights at its tips, hovering just above the trees.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "confirmed",
+            "dateTime": "2024-05-09T12:17:54.114089",
+            "witnessContact": "chen.wei@example.com"
+        },
+        {
+            "id": 10,
+            "witnessName": "Olivia Lee",
+            "location": {
+                "latitude": 45.4215,
+                "longitude": -75.6972
+            },
+            "description": "A bright light that blinked rapidly, moving erratically before disappearing.",
+            "picture": "https://sampleapis.assimilate.be/assets/images/ufosighting.webp",
+            "status": "unconfirmed",
+            "dateTime": "2024-06-22T04:55:31.294290",
+            "witnessContact": "olivia.lee@example.com"
+        }
+    ]
+}
