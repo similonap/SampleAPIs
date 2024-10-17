@@ -67,6 +67,12 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/json", (req, res) => {
+  res.json(GeneratedAPIList);
+});
+
+
+
 // app.use("/resetit", reset);
 // app.use("/create", create);
 // app.use("/custom", custom);
