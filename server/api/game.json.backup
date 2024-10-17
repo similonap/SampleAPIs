@@ -1,0 +1,30 @@
+{
+    "metaData": [
+        {
+            "title": "Game",
+            "longDesc": "A set of apis that can be used to create a game.",
+            "desc": "A set of apis that can be used to create a game.",
+            "featured": false,
+            "categories": [
+                "list"
+            ]
+        }
+    ],
+    "scores": [
+        {
+            "id": 1,
+            "name": "JHNDOE",
+            "score": 10
+        },
+        {
+            "id": 2,
+            "name": "HUNTER",
+            "score": 20
+        },
+        {
+            "id": 3,
+            "name": "DRWHO1",
+            "score": 30
+        }
+    ]
+}

@@ -7,7 +7,7 @@ mixin api(api)
       p.api__desc=api.desc
       h3 API Endpoints
       ul
-        each ep in api.endPoints
+        each ep in api.endpoints
           li
             a.api__link(href=`${api.link}/${ep}`)=`${api.link}/${ep}`
 

@@ -57,13 +57,10 @@ const generateNewAPIListData = async (req, res) => {
   });
 };
 
-const ApiList = require("./apiList");
-
 app.get("/", (req, res) => {
-  // res.json(GeneratedAPIList);
-  // console.log(ApiList);
+  console.log(GeneratedAPIList);
   res.render("index", {
-    apis: ApiList
+    apis: GeneratedAPIList
   });
 });
 

@@ -1,16 +1,14 @@
 {
-    "metaData": [
-        {
-            "title": "UFO Sightings",
-            "longDesc": "A collection of reported UFO sightings from around the world.",
-            "desc": "A collection of reported UFO sightings from around the world.",
-            "featured": false,
-            "categories": [
-                "science",
-                "mystery"
-            ]
-        }
-    ],
+    "metaData": {
+        "title": "UFO Sightings",
+        "longDesc": "A collection of reported UFO sightings from around the world.",
+        "desc": "A collection of reported UFO sightings from around the world.",
+        "featured": false,
+        "categories": [
+            "science",
+            "mystery"
+        ]
+    },
     "sightings": [
         {
             "id": 1,

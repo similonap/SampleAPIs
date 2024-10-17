@@ -41,9 +41,12 @@ const init = async () => {
     const dataPath = path.join(__dirname, `../api/${link}.json`);
     const data = getFromFile(dataPath);
 
+
     try {
       router.use(`/${link}/graphql`, apiLimits, jsonGraphqlExpress.default(data));
     } catch (err) {
+      console.log(link, data);
+
       console.log(`Unable to set up /${link}/graphql`);
       console.error(err);
     }

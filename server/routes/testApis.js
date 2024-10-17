@@ -1,5 +1,5 @@
 const express = require("express");
-const ApiList = require("../apiList");
+const GeneratedAPIList = require("../GeneratedAPIList");
 //const fetch = require("node-fetch");
 const router = express.Router();
 
@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
   res.write("Testing all endpoints...<BR>");
 
   let PromiseFetches = [];
-  ApiList.forEach((apiDeets) => {
+  GeneratedAPIList.forEach((apiDeets) => {
     //res.write(`<hr>Testing ${apiDeets.title}...<BR>`);
     PromiseFetches.push(
       apiDeets.endPoints.map((endpoint) => {
