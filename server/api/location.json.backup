@@ -1,0 +1,41 @@
+{
+  "metaData": [
+    {
+      "title": "Location",
+      "longDesc": "A Location API. Can be used for all kinds of things",
+      "desc": "A location API",
+      "featured": true,
+      "categories": [
+        "useful"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "latitude": 40.7128,
+      "longitude": 74.0060
+    },
+    {
+      "id": 2,
+      "tag": "Los Angeles",
+      "externalId": "2",
+      "latitude": 34.0522,
+      "longitude": 118.2437
+    },
+    {
+      "id": 3,
+      "tag": "Chicago",
+      "externalId": "3",
+      "latitude": 41.8781,
+      "longitude": 87.6298
+    },
+    {
+      "id": 4,
+      "tag": "Houston",
+      "externalId": "4",
+      "latitude": 29.7604,
+      "longitude": 95.3698
+    }
+  ]
+}

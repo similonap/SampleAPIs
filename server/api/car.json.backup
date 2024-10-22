@@ -1,0 +1,678 @@
+{
+  "metaData": [
+    {
+      "title": "Cars",
+      "longDesc": "An API about cars",
+      "desc": "an API about car",
+      "featured": true,
+      "categories": []
+    }
+  ],
+  "models": [
+    {
+      "id": 1,
+      "name": "Corolla",
+      "brand_id": 1,
+      "type": "Sedan",
+      "year": 1966,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 180,
+      "acceleration_0_to_100_kmh": 10,
+      "horsepower": 132,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 2,
+      "name": "Camry",
+      "brand_id": 1,
+      "type": "Sedan",
+      "year": 1982,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 210,
+      "acceleration_0_to_100_kmh": 8.4,
+      "horsepower": 301,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 3,
+      "name": "3 Series",
+      "brand_id": 2,
+      "type": "Sedan",
+      "year": 1975,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 250,
+      "acceleration_0_to_100_kmh": 5.6,
+      "horsepower": 255,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 4,
+      "name": "F-150",
+      "brand_id": 3,
+      "type": "Pickup",
+      "year": 1948,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 170,
+      "acceleration_0_to_100_kmh": 7.5,
+      "horsepower": 400,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 5,
+      "name": "Mustang",
+      "brand_id": 3,
+      "type": "Coupe",
+      "year": 1964,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 250,
+      "acceleration_0_to_100_kmh": 4.2,
+      "horsepower": 450,
+      "transmission": "Manual",
+      "seating_capacity": 4
+    },
+    {
+      "id": 6,
+      "name": "Civic",
+      "brand_id": 5,
+      "type": "Sedan",
+      "year": 1972,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 200,
+      "acceleration_0_to_100_kmh": 7,
+      "horsepower": 174,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 7,
+      "name": "Accord",
+      "brand_id": 5,
+      "type": "Sedan",
+      "year": 1976,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 210,
+      "acceleration_0_to_100_kmh": 6.7,
+      "horsepower": 252,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 8,
+      "name": "Model S",
+      "brand_id": 9,
+      "type": "Sedan",
+      "year": 2012,
+      "fuel_type": "Electric",
+      "top_speed_kmh": 322,
+      "acceleration_0_to_100_kmh": 2.5,
+      "horsepower": 1020,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 9,
+      "name": "Tucson",
+      "brand_id": 10,
+      "type": "SUV",
+      "year": 2004,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 210,
+      "acceleration_0_to_100_kmh": 9,
+      "horsepower": 181,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 10,
+      "name": "XC90",
+      "brand_id": 11,
+      "type": "SUV",
+      "year": 2002,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 230,
+      "acceleration_0_to_100_kmh": 6.5,
+      "horsepower": 316,
+      "transmission": "Automatic",
+      "seating_capacity": 7
+    },
+    {
+      "id": 11,
+      "name": "911",
+      "brand_id": 12,
+      "type": "Sports",
+      "year": 1964,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 330,
+      "acceleration_0_to_100_kmh": 3.5,
+      "horsepower": 640,
+      "transmission": "Manual",
+      "seating_capacity": 4
+    },
+    {
+      "id": 12,
+      "name": "Huracán",
+      "brand_id": 13,
+      "type": "Sports",
+      "year": 2014,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 325,
+      "acceleration_0_to_100_kmh": 2.9,
+      "horsepower": 631,
+      "transmission": "Automatic",
+      "seating_capacity": 2
+    },
+    {
+      "id": 13,
+      "name": "208",
+      "brand_id": 14,
+      "type": "Hatchback",
+      "year": 2012,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 190,
+      "acceleration_0_to_100_kmh": 8.7,
+      "horsepower": 130,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 14,
+      "name": "Corsa",
+      "brand_id": 15,
+      "type": "Hatchback",
+      "year": 1982,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 188,
+      "acceleration_0_to_100_kmh": 9.3,
+      "horsepower": 130,
+      "transmission": "Manual",
+      "seating_capacity": 5
+    },
+    {
+      "id": 15,
+      "name": "Accord Hybrid",
+      "brand_id": 5,
+      "type": "Sedan",
+      "year": 2017,
+      "fuel_type": "Hybrid",
+      "top_speed_kmh": 180,
+      "acceleration_0_to_100_kmh": 7.2,
+      "horsepower": 212,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 16,
+      "name": "Model 3",
+      "brand_id": 9,
+      "type": "Sedan",
+      "year": 2017,
+      "fuel_type": "Electric",
+      "top_speed_kmh": 261,
+      "acceleration_0_to_100_kmh": 3.3,
+      "horsepower": 450,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 17,
+      "name": "Q5",
+      "brand_id": 7,
+      "type": "SUV",
+      "year": 2008,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 237,
+      "acceleration_0_to_100_kmh": 6.3,
+      "horsepower": 261,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 18,
+      "name": "Cayenne",
+      "brand_id": 12,
+      "type": "SUV",
+      "year": 2002,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 253,
+      "acceleration_0_to_100_kmh": 4.9,
+      "horsepower": 541,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 19,
+      "name": "Grand Cherokee",
+      "brand_id": 3,
+      "type": "SUV",
+      "year": 1992,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 200,
+      "acceleration_0_to_100_kmh": 8,
+      "horsepower": 295,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 20,
+      "name": "Altima",
+      "brand_id": 6,
+      "type": "Sedan",
+      "year": 1992,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 200,
+      "acceleration_0_to_100_kmh": 7.8,
+      "horsepower": 248,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 21,
+      "name": "Rogue",
+      "brand_id": 6,
+      "type": "SUV",
+      "year": 2007,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 185,
+      "acceleration_0_to_100_kmh": 8.9,
+      "horsepower": 170,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 22,
+      "name": "Tiguan",
+      "brand_id": 10,
+      "type": "SUV",
+      "year": 2007,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 205,
+      "acceleration_0_to_100_kmh": 7.9,
+      "horsepower": 184,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 23,
+      "name": "Passat",
+      "brand_id": 10,
+      "type": "Sedan",
+      "year": 1973,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 220,
+      "acceleration_0_to_100_kmh": 6,
+      "horsepower": 280,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 24,
+      "name": "Phantom",
+      "brand_id": 17,
+      "type": "Sedan",
+      "year": 1925,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 250,
+      "acceleration_0_to_100_kmh": 5.3,
+      "horsepower": 563,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 25,
+      "name": "Ghost",
+      "brand_id": 17,
+      "type": "Sedan",
+      "year": 2009,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 250,
+      "acceleration_0_to_100_kmh": 4.8,
+      "horsepower": 563,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 26,
+      "name": "Wraith",
+      "brand_id": 17,
+      "type": "Coupe",
+      "year": 2013,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 250,
+      "acceleration_0_to_100_kmh": 4.4,
+      "horsepower": 624,
+      "transmission": "Automatic",
+      "seating_capacity": 4
+    },
+    {
+      "id": 27,
+      "name": "Cullinan",
+      "brand_id": 17,
+      "type": "SUV",
+      "year": 2018,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 250,
+      "acceleration_0_to_100_kmh": 5.2,
+      "horsepower": 563,
+      "transmission": "Automatic",
+      "seating_capacity": 5
+    },
+    {
+      "id": 28,
+      "name": "DB5",
+      "brand_id": 18,
+      "type": "Coupe",
+      "year": 1963,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 233,
+      "acceleration_0_to_100_kmh": 8.1,
+      "horsepower": 282,
+      "transmission": "Manual",
+      "seating_capacity": 4
+    },
+    {
+      "id": 29,
+      "name": "DBS",
+      "brand_id": 18,
+      "type": "Coupe",
+      "year": 1967,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 230,
+      "acceleration_0_to_100_kmh": 7.1,
+      "horsepower": 282,
+      "transmission": "Manual",
+      "seating_capacity": 4
+    },
+    {
+      "id": 30,
+      "name": "V8 Vantage",
+      "brand_id": 18,
+      "type": "Coupe",
+      "year": 1977,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 270,
+      "acceleration_0_to_100_kmh": 5.3,
+      "horsepower": 390,
+      "transmission": "Manual",
+      "seating_capacity": 4
+    },
+    {
+      "id": 31,
+      "name": "Vanquish",
+      "brand_id": 18,
+      "type": "Coupe",
+      "year": 2001,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 321,
+      "acceleration_0_to_100_kmh": 4.5,
+      "horsepower": 450,
+      "transmission": "Automatic",
+      "seating_capacity": 2
+    },
+    {
+      "id": 32,
+      "name": "DB10",
+      "brand_id": 18,
+      "type": "Coupe",
+      "year": 2015,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 305,
+      "acceleration_0_to_100_kmh": 4.2,
+      "horsepower": 503,
+      "transmission": "Manual",
+      "seating_capacity": 2
+    },
+    {
+      "id": 33,
+      "name": "DBS Superleggera",
+      "brand_id": 18,
+      "type": "Coupe",
+      "year": 2018,
+      "fuel_type": "Petrol",
+      "top_speed_kmh": 340,
+      "acceleration_0_to_100_kmh": 3.4,
+      "horsepower": 715,
+      "transmission": "Automatic",
+      "seating_capacity": 2
+    }
+  ],
+  "brands": [
+    {
+      "name": "Toyota",
+      "id": 1,
+      "country": "Japan",
+      "founded": 1937,
+      "city": {
+        "name": "Toyota City",
+        "latitude": 35.083,
+        "longitude": 137.1568
+      },
+      "website": "https://www.toyota.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Toyota.svg/1920px-Toyota.svg.png"
+    },
+    {
+      "name": "BMW",
+      "id": 2,
+      "country": "Germany",
+      "founded": 1916,
+      "city": {
+        "name": "Munich",
+        "latitude": 48.1351,
+        "longitude": 11.582
+      },
+      "website": "https://www.bmw.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/1024px-BMW.svg.png"
+    },
+    {
+      "name": "Ford",
+      "id": 3,
+      "country": "USA",
+      "founded": 1903,
+      "city": {
+        "name": "Dearborn",
+        "latitude": 42.3223,
+        "longitude": -83.1763
+      },
+      "website": "https://www.ford.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
+    },
+    {
+      "name": "Ferrari",
+      "id": 4,
+      "country": "Italy",
+      "founded": 1939,
+      "city": {
+        "name": "Maranello",
+        "latitude": 44.5295,
+        "longitude": 10.8641
+      },
+      "website": "https://www.ferrari.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/36/Prancing_horse.svg"
+    },
+    {
+      "name": "Honda",
+      "id": 5,
+      "country": "Japan",
+      "founded": 1946,
+      "city": {
+        "name": "Tokyo",
+        "latitude": 35.6895,
+        "longitude": 139.6917
+      },
+      "website": "https://www.honda.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/76/Honda_logo.svg"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "id": 6,
+      "country": "Germany",
+      "founded": 1926,
+      "city": {
+        "name": "Stuttgart",
+        "latitude": 48.7758,
+        "longitude": 9.1829
+      },
+      "website": "https://www.mercedes-benz.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mercedes-Benz_Logo_2010.svg/1920px-Mercedes-Benz_Logo_2010.svg.png"
+    },
+    {
+      "name": "Audi",
+      "id": 7,
+      "country": "Germany",
+      "founded": 1909,
+      "city": {
+        "name": "Ingolstadt",
+        "latitude": 48.7665,
+        "longitude": 11.4257
+      },
+      "website": "https://www.audi.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Audi-Logo_2016.svg/1920px-Audi-Logo_2016.svg.png"
+    },
+    {
+      "name": "Volkswagen",
+      "id": 8,
+      "country": "Germany",
+      "founded": 1937,
+      "city": {
+        "name": "Wolfsburg",
+        "latitude": 52.4227,
+        "longitude": 10.7865
+      },
+      "website": "https://www.vw.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/1024px-Volkswagen_logo_2019.svg.png"
+    },
+    {
+      "name": "Tesla",
+      "id": 9,
+      "country": "USA",
+      "founded": 2003,
+      "city": {
+        "name": "Palo Alto",
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "website": "https://www.tesla.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg"
+    },
+    {
+      "name": "Hyundai",
+      "id": 10,
+      "country": "South Korea",
+      "founded": 1967,
+      "city": {
+        "name": "Seoul",
+        "latitude": 37.5665,
+        "longitude": 126.978
+      },
+      "website": "https://www.hyundai.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hyundai_Motor_Company_logo.svg/1920px-Hyundai_Motor_Company_logo.svg.png"
+    },
+    {
+      "name": "Volvo",
+      "id": 11,
+      "country": "Sweden",
+      "founded": 1927,
+      "city": {
+        "name": "Gothenburg",
+        "latitude": 57.7089,
+        "longitude": 11.9746
+      },
+      "website": "https://www.volvocars.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Volvo-Iron-Mark-Black.svg/1024px-Volvo-Iron-Mark-Black.svg.png"
+    },
+    {
+      "name": "Porsche",
+      "id": 12,
+      "country": "Germany",
+      "founded": 1931,
+      "city": {
+        "name": "Stuttgart",
+        "latitude": 48.7758,
+        "longitude": 9.1829
+      },
+      "website": "https://www.porsche.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Porsche_logo.svg/1920px-Porsche_logo.svg.png"
+    },
+    {
+      "name": "Lamborghini",
+      "id": 13,
+      "country": "Italy",
+      "founded": 1963,
+      "city": {
+        "name": "Sant'Agata Bolognese",
+        "latitude": 44.6633,
+        "longitude": 11.1519
+      },
+      "website": "https://www.lamborghini.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Lamborghini_Logo.svg/800px-Lamborghini_Logo.svg.png"
+    },
+    {
+      "name": "Peugeot",
+      "id": 14,
+      "country": "France",
+      "founded": 1810,
+      "city": {
+        "name": "Sochaux",
+        "latitude": 47.5146,
+        "longitude": 6.8284
+      },
+      "website": "https://www.peugeot.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Peugeot_2021_Logo.svg/800px-Peugeot_2021_Logo.svg.png"
+    },
+    {
+      "name": "Opel",
+      "id": 15,
+      "country": "Germany",
+      "founded": 1862,
+      "city": {
+        "name": "Rüsselsheim",
+        "latitude": 49.9896,
+        "longitude": 8.421
+      },
+      "website": "https://www.opel.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Opel_logo_2023.svg/1024px-Opel_logo_2023.svg.png"
+    },
+    {
+      "name": "Mazda",
+      "id": 16,
+      "country": "Japan",
+      "founded": 1920,
+      "city": {
+        "name": "Hiroshima",
+        "latitude": 34.3853,
+        "longitude": 132.4553
+      },
+      "website": "https://www.mazda.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/18/Mazda_logo_with_emblem.svg"
+    },
+    {
+      "name": "Rolls-Royce",
+      "id": 17,
+      "country": "United Kingdom",
+      "founded": 1906,
+      "city": {
+        "name": "Goodwood",
+        "latitude": 50.8617,
+        "longitude": -0.7592
+      },
+      "website": "https://www.rolls-roycemotorcars.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Rolls-Royce_Motor_Cars_logo.svg/1024px-Rolls-Royce_Motor_Cars_logo.svg.png"
+    },
+    {
+      "name": "Aston Martin",
+      "id": 18,
+      "country": "United Kingdom",
+      "founded": 1913,
+      "city": {
+        "name": "Gaydon",
+        "latitude": 52.1964,
+        "longitude": -1.6156
+      },
+      "website": "https://www.astonmartin.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Rolls-Royce_Motor_Cars_logo.svg/1024px-Rolls-Royce_Motor_Cars_logo.svg.png"
+    }
+  ]
+}
