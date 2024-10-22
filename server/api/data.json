@@ -1,0 +1,14 @@
+{
+  "metaData": [
+    {
+      "title": "Data",
+      "longDesc": "A generic data API. Can be used for all kinds of things",
+      "desc": "A data API with no structure",
+      "featured": true,
+      "categories": [
+        "useful"
+      ]
+    }
+  ],
+  "data": []
+}

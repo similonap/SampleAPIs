@@ -10,48 +10,54 @@ const verifyData = (req, res, next) => {
 
     const data = getFromFile(dataPath)[endPoint][0];
 
-    const dataKeys = Object.keys(data);
+    if (data) {
+      const dataKeys = Object.keys(data);
 
-    const expectedObjectData = {};
-    for (let key in data) {
-      let type = typeof data[key];
-      if (type == "object") {
-        type = Array.isArray(data[key]) ? "array" : "object";
-      }
-      expectedObjectData[key] = type;
-    }
 
-    const bodyKeys = ["id", ...Object.keys(body)];
-
-    if (method == "POST" || method == "PUT") {
-      if (!hasAllData(dataKeys, bodyKeys)) {
-        return res.json({
-          error: 400,
-          message:
-            "The data you are sending does not match the existing data object. Check out the expected shape versus what was sent.",
-          expected: expectedObjectData,
-          received: body,
-        });
+      const expectedObjectData = {};
+      for (let key in data) {
+        let type = typeof data[key];
+        if (type == "object") {
+          type = Array.isArray(data[key]) ? "array" : "object";
+        }
+        expectedObjectData[key] = type;
       }
 
-      return next();
-    }
+      const bodyKeys = ["id", ...Object.keys(body)];
 
-    if (method == "PATCH") {
-      if (!hasRelativeData(dataKeys, bodyKeys)) {
-        return res.json({
-          error: 400,
-          message:
-            "It appears you are trying to manipulate data that does not exist on the object. Check out the expected shape versus what was sent.",
-          expected: expectedObjectData,
-          received: body,
-        });
+      if (method == "POST" || method == "PUT") {
+        if (!hasAllData(dataKeys, bodyKeys)) {
+          return res.json({
+            error: 400,
+            message:
+              "The data you are sending does not match the existing data object. Check out the expected shape versus what was sent.",
+            expected: expectedObjectData,
+            received: body,
+          });
+        }
+
+        return next();
       }
 
-      return next();
-    }
+      if (method == "PATCH") {
+        if (!hasRelativeData(dataKeys, bodyKeys)) {
+          return res.json({
+            error: 400,
+            message:
+              "It appears you are trying to manipulate data that does not exist on the object. Check out the expected shape versus what was sent.",
+            expected: expectedObjectData,
+            received: body,
+          });
+        }
 
-    if (method == "GET" || method == "DELETE") {
+        return next();
+      }
+
+      if (method == "GET" || method == "DELETE") {
+        return next();
+      }
+    } else {
+      console.log("Data not found. Silently ignoring shape");
       return next();
     }
 
