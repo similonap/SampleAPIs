@@ -1,0 +1,462 @@
+{
+    "metaData": [
+      {
+        "title": "BPost app",
+        "longDesc": "Voor de oefening van de BPost app in labo 6 van react-native.",
+        "desc": "Oefening BPost app",
+        "featured": false,
+        "categories": [
+          "oefening"
+        ]
+      }
+    ],
+    "ontvangen": {
+        "actief": [
+            {
+                "afgehaald": false,
+                "verzender": "FRAMEWORK",
+                "id": "2P3FJ9I",
+                "adres": "Turnhoutsebaan 18, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "DBRAND",
+                "id": "1X2O3YU",
+                "adres": "Gallifortlei 4, 2100 Deurne",
+                "datum": "06-11-2024",
+                "tijd": "08:24"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "BOL.COM",
+                "id": "7H6G4D3",
+                "adres": "Koningin Astridlaan 10, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "COOLBLUE",
+                "id": "5U8N3LK",
+                "adres": "Sint-Lambertusstraat 5, 2100 Deurne",
+                "datum": "02-11-2024",
+                "tijd": "14:10"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "FRAMEWORK",
+                "id": "2P3FJ9I",
+                "adres": "Turnhoutsebaan 18, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "DBRAND",
+                "id": "1X2O3YU",
+                "adres": "Gallifortlei 4, 2100 Deurne",
+                "datum": "06-11-2024",
+                "tijd": "08:24"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "BOL.COM",
+                "id": "7H6G4D3",
+                "adres": "Koningin Astridlaan 10, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "COOLBLUE",
+                "id": "5U8N3LK",
+                "adres": "Sint-Lambertusstraat 5, 2100 Deurne",
+                "datum": "02-11-2024",
+                "tijd": "14:10"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "AMAZON",
+                "id": "9K2P7FQ",
+                "adres": "Berchemlei 30, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "ZALANDO",
+                "id": "3R1D8LN",
+                "adres": "Mechelsesteenweg 55, 2100 Deurne",
+                "datum": "01-11-2024",
+                "tijd": "16:30"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "FNAC",
+                "id": "4G6P5NW",
+                "adres": "Korte Gasthuisstraat 12, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "DELI.COM",
+                "id": "2N7M3JR",
+                "adres": "Gasstraat 9, 2100 Deurne",
+                "datum": "29-10-2024",
+                "tijd": "13:55"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "H&M",
+                "id": "5J9P2VX",
+                "adres": "Groenplaats 21, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "COOLBLUE",
+                "id": "6N3K4ZR",
+                "adres": "Waterstraat 8, 2100 Deurne",
+                "datum": "28-10-2024",
+                "tijd": "10:45"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "MEDIAWORLD",
+                "id": "3P7X2GR",
+                "adres": "Ringlaan 56, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "FRAMEWORK",
+                "id": "7L2B6PX",
+                "adres": "Hoogstraat 14, 2100 Deurne",
+                "datum": "27-10-2024",
+                "tijd": "09:50"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "ZALANDO",
+                "id": "9M1L8JC",
+                "adres": "Ringlaan 15, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "BOL.COM",
+                "id": "4J3N7VS",
+                "adres": "Meir 24, 2100 Deurne",
+                "datum": "26-10-2024",
+                "tijd": "12:30"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "FNAC",
+                "id": "8K4R9DV",
+                "adres": "Oude Beurs 16, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "COOLBLUE",
+                "id": "1S7G3XK",
+                "adres": "Sint-Jacobsmarkt 33, 2100 Deurne",
+                "datum": "25-10-2024",
+                "tijd": "11:20"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "ALTERNATE",
+                "id": "5P9M4JL",
+                "adres": "Dageraadplaats 11, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "FRAMEWORK",
+                "id": "6T8N9QW",
+                "adres": "Oudevaartplaats 30, 2100 Deurne",
+                "datum": "24-10-2024",
+                "tijd": "15:00"
+            },
+            {
+                "afgehaald": false,
+                "verzender": "H&M",
+                "id": "3B4K7PL",
+                "adres": "Sint-Pietersvliet 2, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "FNAC",
+                "id": "9M8J6LN",
+                "adres": "Meirbrug 7, 2100 Deurne",
+                "datum": "23-10-2024",
+                "tijd": "14:40"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "ALTERNATE",
+                "id": "S09D87FY",
+                "adres": "Gallifortlei 4, 2100 Deurne",
+                "datum": "03-11-2024",
+                "tijd": "08:24"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "MEDIAMARKT",
+                "id": "3P9Q1ZR",
+                "adres": "Franklin Rooseveltplaats 15, 2100 Deurne",
+                "datum": "29-10-2024",
+                "tijd": "17:45"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "ZALANDO",
+                "id": "1Y8U3V6",
+                "adres": "Turnhoutsebaan 100, 2100 Deurne",
+                "datum": "25-10-2024",
+                "tijd": "10:30"
+            }
+        ],
+        "geschiedenis": [
+            {
+                "afgehaald": true,
+                "verzender": "ALTERNATE",
+                "id": "S09D87FY",
+                "adres": "Gallifortlei 4, 2100 Deurne",
+                "datum": "03-11-2024",
+                "tijd": "08:24"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "MEDIAMARKT",
+                "id": "3P9Q1ZR",
+                "adres": "Franklin Rooseveltplaats 15, 2100 Deurne",
+                "datum": "29-10-2024",
+                "tijd": "17:45"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "ZALANDO",
+                "id": "1Y8U3V6",
+                "adres": "Turnhoutsebaan 100, 2100 Deurne",
+                "datum": "25-10-2024",
+                "tijd": "10:30"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "DBRAND",
+                "id": "5L3N9KZ",
+                "adres": "Prins Boudewijnlaan 20, 2100 Deurne",
+                "datum": "22-10-2024",
+                "tijd": "09:10"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "BOL.COM",
+                "id": "7R1M4JP",
+                "adres": "Jaarbeurslaan 40, 2100 Deurne",
+                "datum": "20-10-2024",
+                "tijd": "12:45"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "FNAC",
+                "id": "3N8X6GR",
+                "adres": "Gasstraat 3, 2100 Deurne",
+                "datum": "19-10-2024",
+                "tijd": "11:25"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "COOLBLUE",
+                "id": "8M1L4KJ",
+                "adres": "Koning Leopoldstraat 10, 2100 Deurne",
+                "datum": "17-10-2024",
+                "tijd": "08:35"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "ALTERNATE",
+                "id": "2B7P5GQ",
+                "adres": "Antwerpsesteenweg 66, 2100 Deurne",
+                "datum": "15-10-2024",
+                "tijd": "09:00"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "H&M",
+                "id": "9L6N3MJ",
+                "adres": "Wijnegemsteenweg 9, 2100 Deurne",
+                "datum": "12-10-2024",
+                "tijd": "14:15"
+            },
+            {
+                "afgehaald": true,
+                "verzender": "DELI.COM",
+                "id": "1P4R8VK",
+                "adres": "Nachtegaalstraat 7, 2100 Deurne",
+                "datum": "10-10-2024",
+                "tijd": "17:00"
+            }
+        ]
+    },
+    "verzenden": {
+        "actief": [
+            {
+                "afgehaald": false,
+                "ontvanger": "ALDI",
+                "id": "9L2H5FT",
+                "adres": "Koningin Astridlaan 12, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "C&A",
+                "id": "6J3N1UV",
+                "adres": "Sint-Lambertusstraat 8, 2100 Deurne",
+                "datum": "08-11-2024",
+                "tijd": "12:00"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "PAPAJU",
+                "id": "9R5F2Z1",
+                "adres": "Gallifortlei 6, 2100 Deurne",
+                "datum": "05-11-2024",
+                "tijd": "15:00"
+            },
+            {
+                "afgehaald": false,
+                "ontvanger": "WEALTHY SEASONS",
+                "id": "7T3K6D2",
+                "adres": "Franklin Rooseveltplaats 20, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "SCHUFA",
+                "id": "4X7N6RT",
+                "adres": "Koningin Astridlaan 15, 2100 Deurne",
+                "datum": "04-11-2024",
+                "tijd": "09:45"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "WALTER'S",
+                "id": "1Z5G2E3",
+                "adres": "Turnhoutsebaan 50, 2100 Deurne",
+                "datum": "07-11-2024",
+                "tijd": "18:00"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "TAXFREE",
+                "id": "2Y3R6V7",
+                "adres": "Gallifortlei 10, 2100 Deurne",
+                "datum": "01-11-2024",
+                "tijd": "13:30"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "BOLIGARDE",
+                "id": "3V1S9D6",
+                "adres": "Franklin Rooseveltplaats 25, 2100 Deurne",
+                "datum": "31-10-2024",
+                "tijd": "19:00"
+            },
+            {
+                "afgehaald": false,
+                "ontvanger": "BOLIGARDE EXPRESS",
+                "id": "9X5C7E2",
+                "adres": "Turnhoutsebaan 80, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "ALDI EXPRESS",
+                "id": "8V3R6T4",
+                "adres": "Koningin Astridlaan 20, 2100 Deurne",
+                "datum": "09-11-2024",
+                "tijd": "14:00"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "WALTER'S EXPRESS",
+                "id": "6T2C1V8",
+                "adres": "Franklin Rooseveltplaats 30, 2100 Deurne",
+                "datum": "03-11-2024",
+                "tijd": "16:00"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "SCHUFA EXPRESS",
+                "id": "5Y1R3E9",
+                "adres": "Gallifortlei 15, 2100 Deurne",
+                "datum": "02-11-2024",
+                "tijd": "17:30"
+            },
+            {
+                "afgehaald": false,
+                "ontvanger": "TAXFREE EXPRESS",
+                "id": "1R5G7C3",
+                "adres": "Turnhoutsebaan 120, 2100 Deurne"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "WEALTHY SEASONS EXPRESS",
+                "id": "4X8N9V1",
+                "adres": "Sint-Lambertusstraat 12, 2100 Deurne",
+                "datum": "05-11-2024",
+                "tijd": "15:30"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "PAPAJU EXPRESS",
+                "id": "7T6K9W2",
+                "adres": "Franklin Rooseveltplaats 35, 2100 Deurne",
+                "datum": "06-11-2024",
+                "tijd": "18:30"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "C&A EXPRESS",
+                "id": "9V3E1R7",
+                "adres": "Gallifortlei 20, 2100 Deurne",
+                "datum": "04-11-2024",
+                "tijd": "16:15"
+            },
+            {
+                "afgehaald": false,
+                "ontvanger": "ALDI EXPRESS SIRENE",
+                "id": "6R2C3V1",
+                "adres": "Turnhoutsebaan 150, 2100 Deurne"
+            }
+        ],
+        "geschiedenis": [
+            {
+                "afgehaald": true,
+                "ontvanger": "ALTERNATE",
+                "id": "S09D87FY",
+                "adres": "Gallifortlei 4, 2100 Deurne",
+                "datum": "03-11-2024",
+                "tijd": "08:24"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "MEDIAMARKT",
+                "id": "3P9Q1ZR",
+                "adres": "Franklin Rooseveltplaats 15, 2100 Deurne",
+                "datum": "29-10-2024",
+                "tijd": "17:45"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "ALTERNATE",
+                "id": "8T4J6SW",
+                "adres": "Gallifortlei 4, 2100 Deurne",
+                "datum": "03-11-2024",
+                "tijd": "08:24"
+            },
+            {
+                "afgehaald": true,
+                "ontvanger": "MEDIAMARKT",
+                "id": "6G2F1PA",
+                "adres": "Turnhoutsebaan 201, 2100 Deurne",
+                "datum": "01-11-2024",
+                "tijd": "12:20"
+            }
+        ]
+    },
+    "profile": {
+        "voornaam": "Jan",
+        "achternaam": "Janssens",
+        "telefoon": "+32470123456",
+        "email": "jan.janssens@example.com",
+        "wachtwoord": "VeiligWachtwoord123"
+    }
+}
