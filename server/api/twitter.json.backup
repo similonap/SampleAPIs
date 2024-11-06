@@ -1,0 +1,209 @@
+{
+    "metaData": [
+        {
+            "title": "Twitter",
+            "longDesc": "Twitter used to be an American microblogging and social networking service on which users post and interact with messages known as tweets. Now known as X.",
+            "desc": "Twitter social network",
+            "featured": false,
+            "categories": [
+                "social"
+            ]
+        }
+    ],
+    "tweets": [
+        {
+            "id": 0,
+            "handle": "Cookie",
+            "text": "Mrgglglglgl! Mrrlllrgglglglgl! Mrgglrglglglgl! 🐟🌲 #Mrgglglglgl",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 1,
+            "handle": "WarchiefThrall",
+            "text": "Just got a new Doomhammer. It's so much lighter than the old one. #NewYearNewMe #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 2,
+            "handle": "ArchmageJaina",
+            "text": "Did you hear about the mage who always kept her polymorph spell up? She really had a sheep fetish! 🐑😂 @WarchiefThrall #WarcraftJokes #MageLife",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 3,
+            "handle": "BansheeQueen",
+            "text": "Just played a game of 'Hide and Seek' with my fellow undead. I won, of course, they couldn't smell me coming! 🧟‍♂️ #UndeadHumor #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 4,
+            "handle": "KingVarian",
+            "text": "I told Anduin not to play Hearthstone with @ArchmageJaina. He never listens! #Fatherhood #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 5,
+            "handle": "HighPriestess",
+            "text": "A priest, a druid, and a rogue walk into a bar. The bartender says, 'What's this, a Night Elf party?' 😄 #NightElfJokes #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 6,
+            "handle": "TheBetrayed",
+            "text": "You are not prepared... for this joke! Why did the druid go to therapy? He had too many bear issues! 🐻 @HighPriestess #WarcraftJokes #YouAreNotPrepared",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 7,
+            "handle": "TheLichKing",
+            "text": "Knock knock. Who's there? Frostmourne. Frostmourne who? Frostmourne hungers... for more jokes! 😈 #LichKingLaughs #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 8,
+            "handle": "PrinceAnduin",
+            "text": "Just learned a new healing spell from @ArchmageJaina. I feel so powerful! 💪 #PriestLife #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 9,
+            "handle": "TheLichKing",
+            "text": "Just took a stroll around Icecrown Citadel. You could say it was... chilling. ❄️ #LichKingLife #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 10,
+            "handle": "TheLichKing",
+            "text": "Why did the Paladin fail his driving test? He couldn't stop using his Divine Shield! 😂 #PaladinJokes #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 11,
+            "handle": "TheLichKing",
+            "text": "I told Invincible to take a break today. Even undead horses need some rest! 💀🐎 #LichKingLife #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 12,
+            "handle": "WarchiefThrall",
+            "text": "Why did the Tauren bring string to the party? He wanted to have a good time and just couldn't... bear it without! 😂 #TaurenHumor #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 13,
+            "handle": "WarchiefThrall",
+            "text": "Had a great meeting with @HighPriestess today. The Horde and the Night Elves will work together for a better future! #Peace #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 14,
+            "handle": "WarchiefThrall",
+            "text": "Shaman Tip: When life gives you lemons, make a totem out of them! 🍋⚡ #ShamanWisdom #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 15,
+            "handle": "ArchmageJaina",
+            "text": "Why did the Frost Mage get a job at the ice cream shop? They had the perfect cone of cold! 🍦❄️ #MageHumor #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        },
+        {
+            "id": 16,
+            "handle": "ArchmageJaina",
+            "text": "Had an insightful conversation with @KingVarian today. Let's bring peace to Azeroth, one step at a time! 🕊️ #PeaceTalks #Warcraft",
+            "createdOn": "2023-06-06T20:15:21.236Z"
+        }
+    ],
+    "profiles": [
+        {
+            "id": 0,
+            "handle": "Cookie",
+            "name": "Cookie",
+            "bio": "Adventurous murloc who loves exploring and making friends. Always up for a challenge! 🐟🌲",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/Cookie.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/Cookie.png",
+            "password": "cookie123!"
+        },
+        {
+            "id": 1,
+            "handle": "WarchiefThrall",
+            "name": "Thrall",
+            "bio": "Warchief of the Horde, powerful shaman, and protector of Azeroth. Working towards peace and unity. 🌩️🔨",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/WarchiefThrall.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/WarchiefThrall.png",
+            "password": "thrall4peace!"
+        },
+        {
+            "id": 2,
+            "handle": "ArchmageJaina",
+            "name": "Jaina Proudmoore",
+            "bio": "Leader of the Kirin Tor, powerful mage, and advocate for peace. Making Azeroth a better place, one spell at a time. ✨📚",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/ArchmageJaina.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/ArchmageJaina.png",
+            "password": "arcanePower42!"
+        },
+        {
+            "id": 3,
+            "handle": "BansheeQueen",
+            "name": "Sylvanas Windrunner",
+            "bio": "Banshee Queen of the Forsaken, master archer, and cunning strategist. Reclaiming what was lost. 🏹🧟‍♀️",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/BansheeQueen.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/BansheeQueen.png",
+            "password": "darkLady123!"
+        },
+        {
+            "id": 4,
+            "handle": "KingVarian",
+            "name": "Varian Wrynn",
+            "bio": "King of Stormwind, skilled warrior, and loving father. Fighting for the Alliance and a brighter future. ⚔️👑",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/KingVarian.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/KingVarian.png",
+            "password": "forTheAlliance!"
+        },
+        {
+            "id": 5,
+            "handle": "HighPriestess",
+            "name": "Tyrande Whisperwind",
+            "bio": "High Priestess of Elune, skilled huntress, and leader of the Night Elves. Guided by the light of Elune. 🌙🏹",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/HighPriestess.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/HighPriestess.png",
+            "password": "elunesLight!"
+        },
+        {
+            "id": 6,
+            "handle": "TheBetrayed",
+            "name": "Illidan Stormrage",
+            "bio": "Demon hunter, master of the fel, and misunderstood hero. Fighting the Burning Legion to save Azeroth. 🔥🗡️",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/TheBetrayed.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/TheBetrayed.png",
+            "password": "notPrepared!"
+        },
+        {
+            "id": 7,
+            "handle": "TheLichKing",
+            "name": "Arthas Menethil",
+            "bio": "The Lich King, ruler of the Scourge, and master of Icecrown Citadel. Bringing cold and darkness to Azeroth. ❄️👑",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/TheLichKing.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/TheLichKing.png",
+            "password": "frozenThrone!"
+        },
+        {
+            "id": 8,
+            "handle": "PrinceAnduin",
+            "name": "Anduin Wrynn",
+            "bio": "Prince of Stormwind, devoted priest, and aspiring leader. Learning from the best to protect Azeroth. 🙏📖",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/PrinceAnduin.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/PrinceAnduin.png",
+            "password": "lightProtectMe!"
+        },
+        {
+            "id": 9,
+            "handle": "JonDoe",
+            "name": "Jon Doe",
+            "bio": "Mysterious maverick, pun enthusiast, and part-time ninja 🕶️. On a quest to discover the world's best dad jokes and hidden emojis 🕵️. #AnonymousAdventurer",
+            "avatar": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/avatars/JonDoe.png",
+            "banner": "https://raw.githubusercontent.com/similonap/twitter-json-server/master/images/banners/JonDoe.png",
+            "password": "dadJokeNinja!"
+        }
+    ]
+}
