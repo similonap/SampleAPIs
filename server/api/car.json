@@ -477,7 +477,7 @@
         "longitude": -83.1763
       },
       "website": "https://www.ford.com",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.svg/800px-Ford_logo_flat.svg.png"
     },
     {
       "name": "Ferrari",
@@ -490,7 +490,7 @@
         "longitude": 10.8641
       },
       "website": "https://www.ferrari.com",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/3/36/Prancing_horse.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Prancing_horse.svg/1481px-Prancing_horse.svg.png"
     },
     {
       "name": "Honda",
@@ -503,7 +503,7 @@
         "longitude": 139.6917
       },
       "website": "https://www.honda.com",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/76/Honda_logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Honda_logo.svg/2560px-Honda_logo.svg.png"
     },
     {
       "name": "Mercedes-Benz",
@@ -555,7 +555,7 @@
         "longitude": -122.143
       },
       "website": "https://www.tesla.com",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1587px-Tesla_Motors.svg.png"
     },
     {
       "name": "Hyundai",
@@ -646,7 +646,7 @@
         "longitude": 132.4553
       },
       "website": "https://www.mazda.com",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/1/18/Mazda_logo_with_emblem.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Mazda_logo_with_emblem.svg/1941px-Mazda_logo_with_emblem.svg.png"
     },
     {
       "name": "Rolls-Royce",
@@ -672,7 +672,7 @@
         "longitude": -1.6156
       },
       "website": "https://www.astonmartin.com",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Rolls-Royce_Motor_Cars_logo.svg/1024px-Rolls-Royce_Motor_Cars_logo.svg.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/b/bd/Aston_Martin_Lagonda_brand_logo.png"
     }
   ]
 }
