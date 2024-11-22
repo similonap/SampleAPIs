@@ -350,7 +350,358 @@
       "air_date": "September 27, 2015",
       "episode": 9,
       "season": 2
+    },
+    {
+      "id": 21,
+      "name": "The Auto Erotic Assimilation",
+      "air_date": "July 31, 2017",
+      "episode": 1,
+      "season": 3
+    },
+    {
+      "id": 22,
+      "name": "Pickle Rick",
+      "air_date": "August 7, 2017",
+      "episode": 2,
+      "season": 3
+    },
+    {
+      "id": 23,
+      "name": "Vindicators 3: The Return of Worldender",
+      "air_date": "August 14, 2017",
+      "episode": 3,
+      "season": 3
+    },
+    {
+      "id": 24,
+      "name": "The Whirligig of Whimsy",
+      "air_date": "August 21, 2017",
+      "episode": 4,
+      "season": 3
+    },
+    {
+      "id": 25,
+      "name": "The Rickshank Rickdemption",
+      "air_date": "October 1, 2017",
+      "episode": 5,
+      "season": 3
+    },
+    {
+      "id": 26,
+      "name": "Morty's Mind Blowers",
+      "air_date": "October 8, 2017",
+      "episode": 6,
+      "season": 3
+    },
+    {
+      "id": 27,
+      "name": "The Ricklantis Mixup",
+      "air_date": "October 15, 2017",
+      "episode": 7,
+      "season": 3
+    },
+    {
+      "id": 28,
+      "name": "Rest and Ricklaxation",
+      "air_date": "October 22, 2017",
+      "episode": 8,
+      "season": 3
+    },
+    {
+      "id": 29,
+      "name": "The ABC's of Beth",
+      "air_date": "October 29, 2017",
+      "episode": 9,
+      "season": 3
+    },
+    {
+      "id": 30,
+      "name": "The Cromulons",
+      "air_date": "November 5, 2017",
+      "episode": 10,
+      "season": 3
+    },
+    {
+      "id": 31,
+      "name": "Edge of Tomorrow",
+      "air_date": "November 10, 2019",
+      "episode": 1,
+      "season": 4
+    },
+    {
+      "id": 32,
+      "name": "The Old Man and the Seat",
+      "air_date": "November 17, 2019",
+      "episode": 2,
+      "season": 4
+    },
+    {
+      "id": 33,
+      "name": "One Crew Over the Crewcoo's Nest",
+      "air_date": "November 24, 2019",
+      "episode": 3,
+      "season": 4
+    },
+    {
+      "id": 34,
+      "name": "Promortyus",
+      "air_date": "December 1, 2019",
+      "episode": 4,
+      "season": 4
+    },
+    {
+      "id": 35,
+      "name": "Claw and Hoarder",
+      "air_date": "December 8, 2019",
+      "episode": 5,
+      "season": 4
+    },
+    {
+      "id": 36,
+      "name": "Never Ricking Morty",
+      "air_date": "May 3, 2020",
+      "episode": 6,
+      "season": 4
+    },
+    {
+      "id": 37,
+      "name": "The Vat of Acid Episode",
+      "air_date": "May 10, 2020",
+      "episode": 7,
+      "season": 4
+    },
+    {
+      "id": 38,
+      "name": "Childrick of Mort",
+      "air_date": "May 17, 2020",
+      "episode": 8,
+      "season": 4
+    },
+    {
+      "id": 39,
+      "name": "Star Mort Rickturn of the Jerri",
+      "air_date": "May 24, 2020",
+      "episode": 9,
+      "season": 4
+    },
+    {
+      "id": 40,
+      "name": "Total Rickall",
+      "air_date": "May 31, 2020",
+      "episode": 10,
+      "season": 4
+    },
+    {
+      "id": 41,
+      "name": "Mort Dinner Rick Andre",
+      "air_date": "June 20, 2021",
+      "episode": 1,
+      "season": 5
+    },
+    {
+      "id": 42,
+      "name": "Mort Ricktual Mortynight of the Sex Robots",
+      "air_date": "June 27, 2021",
+      "episode": 2,
+      "season": 5
+    },
+    {
+      "id": 43,
+      "name": "A Rickconvenient Mort",
+      "air_date": "July 4, 2021",
+      "episode": 3,
+      "season": 5
+    },
+    {
+      "id": 44,
+      "name": "Rickdependence Spray",
+      "air_date": "July 11, 2021",
+      "episode": 4,
+      "season": 5
+    },
+    {
+      "id": 45,
+      "name": "Amorty Morty Morty Morty Morty Morty Morty Morty",
+      "air_date": "July 18, 2021",
+      "episode": 5,
+      "season": 5
+    },
+    {
+      "id": 46,
+      "name": "Bethic Twinstinct",
+      "air_date": "July 25, 2021",
+      "episode": 6,
+      "season": 5
+    },
+    {
+      "id": 47,
+      "name": "Gotron of Ragnarock",
+      "air_date": "August 1, 2021",
+      "episode": 7,
+      "season": 5
+    },
+    {
+      "id": 48,
+      "name": "Mortyplicity",
+      "air_date": "August 8, 2021",
+      "episode": 8,
+      "season": 5
+    },
+    {
+      "id": 49,
+      "name": "Forgetting Sarick Morth",
+      "air_date": "August 15, 2021",
+      "episode": 9,
+      "season": 5
+    },
+    {
+      "id": 50,
+      "name": "Rickmurai Jack",
+      "air_date": "September 5, 2021",
+      "episode": 10,
+      "season": 5
+    },
+    {
+      "id": 51,
+      "name": "Solaricks",
+      "air_date": "September 4, 2022",
+      "episode": 1,
+      "season": 6
+    },
+    {
+      "id": 52,
+      "name": "Rick & Morty's Thanksploitation Spectacular",
+      "air_date": "September 11, 2022",
+      "episode": 2,
+      "season": 6
+    },
+    {
+      "id": 53,
+      "name": "Bethic Twinstinct",
+      "air_date": "September 18, 2022",
+      "episode": 3,
+      "season": 6
+    },
+    {
+      "id": 54,
+      "name": "Final DeSmithation",
+      "air_date": "September 25, 2022",
+      "episode": 4,
+      "season": 6
+    },
+    {
+      "id": 55,
+      "name": "Rick & Morty in The Great War",
+      "air_date": "October 2, 2022",
+      "episode": 5,
+      "season": 6
+    },
+    {
+      "id": 56,
+      "name": "Juricksic Pork",
+      "air_date": "October 9, 2022",
+      "episode": 6,
+      "season": 6
+    },
+    {
+      "id": 57,
+      "name": "Analyze Piss",
+      "air_date": "October 16, 2022",
+      "episode": 7,
+      "season": 6
+    },
+    {
+      "id": 58,
+      "name": "Full Meta Jackrick",
+      "air_date": "October 23, 2022",
+      "episode": 8,
+      "season": 6
+    },
+    {
+      "id": 59,
+      "name": "Family Guy Guy",
+      "air_date": "November 6, 2022",
+      "episode": 9,
+      "season": 6
+    },
+    {
+      "id": 60,
+      "name": "Ricktional Mortylation",
+      "air_date": "November 13, 2022",
+      "episode": 10,
+      "season": 6
+    },
+    {
+      "id": 61,
+      "name": "Cornfed Conundrum",
+      "air_date": "October 4, 2023",
+      "episode": 1,
+      "season": 7
+    },
+    {
+      "id": 62,
+      "name": "The Family Fractured",
+      "air_date": "October 11, 2023",
+      "episode": 2,
+      "season": 7
+    },
+    {
+      "id": 63,
+      "name": "Grifting on a Dime",
+      "air_date": "October 18, 2023",
+      "episode": 3,
+      "season": 7
+    },
+    {
+      "id": 64,
+      "name": "The Blurks and the Bees",
+      "air_date": "October 25, 2023",
+      "episode": 4,
+      "season": 7
+    },
+    {
+      "id": 65,
+      "name": "Ricktional Mortylation",
+      "air_date": "November 1, 2023",
+      "episode": 5,
+      "season": 7
+    },
+    {
+      "id": 66,
+      "name": "A Rick in Time",
+      "air_date": "November 8, 2023",
+      "episode": 6,
+      "season": 7
+    },
+    {
+      "id": 67,
+      "name": "Rick and Morty in The Great War",
+      "air_date": "November 15, 2023",
+      "episode": 7,
+      "season": 7
+    },
+    {
+      "id": 68,
+      "name": "Forgetting Sarick Morth",
+      "air_date": "November 22, 2023",
+      "episode": 8,
+      "season": 7
+    },
+    {
+      "id": 69,
+      "name": "Rickternal Friendshine of the Spotless Mort",
+      "air_date": "November 29, 2023",
+      "episode": 9,
+      "season": 7
+    },
+    {
+      "id": 70,
+      "name": "Rickfinity and Beyond",
+      "air_date": "December 6, 2023",
+      "episode": 10,
+      "season": 7
     }
+    
   ],
   "locations": [
     {
