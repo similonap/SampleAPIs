@@ -1110,15 +1110,14 @@
             "id": 14,
             "name": "Wan Shi Tong",
             "image": "https://sampleapis.assimilate.be/assets/images/avatar/Wan_Shi_Tong.png",
-            "bio": "A wise and knowledgeable spirit who is the keeper of the Spirit Library, Wan Shi Tong is deeply protective of his collection and tends to view humans with distrust.",
-            "alternativeNames": [
-                "He Who Knows Ten Thousand Things"
-            ],
-            "nationality": "Spirit World",
-            "ethnicity": "NA",
-            "ages": "Ancient",
-            "born": "NA",
-            "died": "NA",
+            "bio": {
+                "alternativeNames": [],
+                "nationality": "Spirit World",
+                "ethnicity": "NA",
+                "ages": "Ancient",
+                "born": "NA",
+                "died": "NA"
+            },
             "physicalDescription": {
                 "gender": "Male",
                 "eyeColor": "Yellow",
@@ -1131,43 +1130,40 @@
                     "Knowledge Seekers",
                     "Spirit Library"
                 ],
-                "enemies": [
-                    "Humans (distrusts them)"
-                ],
-                "weaponsOfChoice": [
-                    "Knowledge manipulation"
-                ],
+                "enemies": "Humans (distrusts them)",
+                "weaponsOfChoice": "Knowledge manipulation",
                 "fightingStyles": "Knowledge-based abilities"
             },
             "politicalInformation": {
                 "profession": "Guardian of the Spirit Library",
-                "position": "Library Keeper"
+                "position": "Library Keeper",
+                "predecessor": "NA",
+                "successor": "NA",
+                "affiliations": [
+                    "Spirit Library",
+                    "Spirit World"
+                ]
             },
-            "predecessor": "NA",
-            "successor": "NA",
-            "affiliations": [
-                "Spirit Library",
-                "Spirit World"
-            ],
             "chronologicalInformation": {
                 "firstAppearance": "\"The Library\"",
-                "lastAppearance": "\"The Rift Part Three\" (chronological)"
-            },
-            "voicedBy": "H\u00e9ctor Elizondo"
+                "lastAppearance": "\"The Rift Part Three\" (chronological)",
+                "voicedBy": "Héctor Elizondo"
+            }
         },
         {
             "id": 15,
             "name": "Hei Bai",
             "image": "https://sampleapis.assimilate.be/assets/images/avatar/Hei_Bai.png",
-            "bio": "Hei Bai is a forest spirit who appears as a giant panda bear in peace and transforms into a terrifying monster when angered by human destruction.",
-            "alternativeNames": [
-                "Black and White Spirit"
-            ],
-            "nationality": "Spirit World",
-            "ethnicity": "NA",
-            "ages": "Ancient",
-            "born": "NA",
-            "died": "NA",
+            "bio": {
+                "alternativeNames": [
+                    "Black and White Spirit"
+                ],
+                "nationality": "Spirit World",
+                "ethnicity": "NA",
+                "ages": "Ancient",
+                "born": "NA",
+                "died": "NA"
+            },
             "physicalDescription": {
                 "gender": "Male",
                 "eyeColor": "Red (as monster); Black (in panda form)",
@@ -1191,32 +1187,31 @@
             },
             "politicalInformation": {
                 "profession": "Forest Guardian",
-                "position": "NA"
+                "position": "NA",
+                "predecessor": "NA",
+                "successor": "NA",
+                "affiliations": "Spirit World"
             },
-            "predecessor": "NA",
-            "successor": "NA",
-            "affiliations": [
-                "Spirit World"
-            ],
             "chronologicalInformation": {
                 "firstAppearance": "\"The Spirit World (Winter Solstice, Part 1)\"",
-                "lastAppearance": "\"The Rift Part Two\" (chronological)"
-            },
-            "voicedBy": "NA"
+                "lastAppearance": "\"The Rift Part Two\" (chronological)",
+                "voicedBy": "NA"
+            }
         },
         {
             "id": 16,
             "name": "Koh",
             "image": "https://sampleapis.assimilate.be/assets/images/avatar/Koh.png",
-            "bio": "Koh the Face Stealer is an ancient and dangerous spirit who steals the faces of those who show emotion in his presence.",
-            "alternativeNames": [
-                "Face Stealer"
-            ],
-            "nationality": "Spirit World",
-            "ethnicity": "NA",
-            "ages": "Ancient",
-            "born": "NA",
-            "died": "NA",
+            "bio": {
+                "alternativeNames": [
+                    "Face Stealer"
+                ],
+                "nationality": "Spirit World",
+                "ethnicity": "NA",
+                "ages": "Ancient",
+                "born": "NA",
+                "died": "NA"
+            },
             "physicalDescription": {
                 "gender": "Male",
                 "eyeColor": "NA",
@@ -1228,28 +1223,22 @@
                 "allies": [
                     "Spirit World"
                 ],
-                "enemies": [
-                    "Humans (if emotional)"
-                ],
-                "weaponsOfChoice": [
-                    "Face stealing"
-                ],
+                "enemies": "Humans (if emotional)",
+                "weaponsOfChoice": "Face stealing",
                 "fightingStyles": "Face-stealing abilities"
             },
             "politicalInformation": {
                 "profession": "Spirit of Retribution",
-                "position": "Face Stealer"
+                "position": "Face Stealer",
+                "predecessor": "NA",
+                "successor": "NA",
+                "affiliations": "Spirit World"
             },
-            "predecessor": "NA",
-            "successor": "NA",
-            "affiliations": [
-                "Spirit World"
-            ],
             "chronologicalInformation": {
                 "firstAppearance": "\"The Siege of the North, Part 2\"",
-                "lastAppearance": "\"The Rift Part Three\" (chronological)"
-            },
-            "voicedBy": "Erik Todd Dellums"
+                "lastAppearance": "\"The Rift Part Three\" (chronological)",
+                "voicedBy": "Erik Todd Dellums"
+            }
         }
     ],
     "episodes": [
