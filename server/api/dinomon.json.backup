@@ -1,0 +1,112 @@
+{
+    "metaData": [
+        {
+            "title": "Dinomon",
+            "longDesc": "A collection of Dinomon creatures from different regions",
+            "desc": "A collection of Dinomon creatures",
+            "featured": true,
+            "categories": [
+                "dinomon"
+            ]
+        }
+    ],
+    "dinomon": [
+        {
+            "id": 1,
+            "name": "Raptorix",
+            "description": "A swift and agile Dinomon with a feathery crest.",
+            "type": "Ice",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/raptorix.png",
+            "region": 1
+        },
+        {
+            "id": 2,
+            "name": "Terrasaur",
+            "description": "A sturdy Dinomon that harnesses the power of earth and rocks.",
+            "type": "Ground",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/terrasaur.png",
+            "region": 2
+        },
+        {
+            "id": 3,
+            "name": "Blazewing",
+            "description": "Flames dance around this Dinomon, as it flies through the skies.",
+            "type": "Fire",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/blazewing.png",
+            "region": 3
+        },
+        {
+            "id": 4,
+            "name": "Aqualith",
+            "description": "A water-loving Dinomon that can dive deep into the ocean.",
+            "type": "Water",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/aqualith.png",
+            "region": 1
+        },
+        {
+            "id": 5,
+            "name": "Vinetalon",
+            "description": "This Dinomon blends in with the forest and uses vines to attack.",
+            "type": "Grass",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/vinetalon.png",
+            "region": 2
+        },
+        {
+            "id": 6,
+            "name": "Electroraptor",
+            "description": "A Dinomon that generates electricity with its movements.",
+            "type": "Electric",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/electroraptor.png",
+            "region": 3
+        },
+        {
+            "id": 7,
+            "name": "Moltenos",
+            "description": "A fiery creature born from volcanic activity.",
+            "type": "Fire",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/moltenos.png",
+            "region": 1
+        },
+        {
+            "id": 8,
+            "name": "Galeaptor",
+            "description": "This swift Dinomon can summon strong winds.",
+            "type": "Flying",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/galeaptor.png",
+            "region": 2
+        },
+        {
+            "id": 9,
+            "name": "Mudstalker",
+            "description": "A sneaky and muddy Dinomon that ambushes its prey.",
+            "type": "Ground",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/mudstalker.png",
+            "region": 3
+        },
+        {
+            "id": 10,
+            "name": "Crystaraptor",
+            "description": "A crystal-clad Dinomon that sparkles in the sunlight.",
+            "type": "Rock",
+            "image": "https://raw.githubusercontent.com/similonap/json/refs/heads/master/crystaraptor.png",
+            "region": 1
+        }
+    ],
+    "region": [
+        {
+            "id": 1,
+            "name": "Glacius Plains",
+            "description": "A snowy region known for its icy plains and frosty Dinomon."
+        },
+        {
+            "id": 2,
+            "name": "Verdantia Forest",
+            "description": "A lush and green forest teeming with life and many Dinomon species."
+        },
+        {
+            "id": 3,
+            "name": "Ember Highlands",
+            "description": "A mountainous area filled with molten lava and fiery Dinomon."
+        }
+    ]
+}
