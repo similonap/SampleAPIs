@@ -4,7 +4,6 @@ const path = require("path");
 const jsonServer = require("json-server");
 const jsonGraphqlExpress = require("json-graphql-server");
 
-const { apiLimits } = require("../utils/rateLimiterDefaults");
 const { getFromFile } = require("../utils/utils");
 
 const router = express.Router();
@@ -64,11 +63,11 @@ const registerCustomEndPoints = () => {
     if (endpoint) {
       const { name } = endpoint;
       const file = path.join(__dirname, `../custom/${name}.json`);
-      router.use(`/${name}/api`, apiLimits, jsonServer.router(file));
+      router.use(`/${name}/api`, jsonServer.router(file));
 
       let data = getFromFile(file);
       try {
-        router.use(`/${name}/graphql`, apiLimits, jsonGraphqlExpress.default(data));
+        router.use(`/${name}/graphql`, jsonGraphqlExpress.default(data));
       } catch (err) {
         console.log(`Unable to set up /custom/${name}/graphql`);
         console.error(err);

@@ -5,7 +5,6 @@ const jsonServer = require("json-server");
 const jsonGraphqlExpress = require("json-graphql-server");
 const fs = require("fs");
 
-const { apiLimits } = require("../utils/rateLimiterDefaults");
 const { getFromFile } = require("../utils/utils");
 const { JWT_SECRET } = require("../config");
 const jwt = require('jsonwebtoken');
@@ -43,7 +42,7 @@ const init = async () => {
 
 
     try {
-      router.use(`/${link}/graphql`, apiLimits, jsonGraphqlExpress.default(data));
+      router.use(`/${link}/graphql`, jsonGraphqlExpress.default(data));
     } catch (err) {
       console.log(link, data);
 
@@ -52,7 +51,7 @@ const init = async () => {
     }
   });
   GeneratedAPIList.forEach(({ link }) => {
-    router.use(`/${link}`, authorizationMiddleware, verifyData, apiLimits, (req, res, next) => {
+    router.use(`/${link}`, authorizationMiddleware, verifyData, (req, res, next) => {
       const email = req.email;
       const dataPath = path.join(__dirname, `../api/${link}.json`);
       const dataPathWithEmail = email ? path.join(__dirname, `../api/${link}_${email}.json`) : dataPath;
