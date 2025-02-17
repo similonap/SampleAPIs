@@ -70,7 +70,7 @@ app.get("/json", (req, res) => {
 
 
 
-// app.use("/resetit", reset);
+app.use("/resetit", reset);
 // app.use("/create", create);
 // app.use("/custom", custom);
 app.use("/generate", generateNewAPIListData);
