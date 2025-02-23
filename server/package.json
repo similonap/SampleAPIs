@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jermbo/SampleAPIs#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "currency.js": "^2.0.4",
     "express": "^4.19.2",
     "express-oas-generator": "^1.0.46",
     "express-rate-limit": "^7.2.0",
@@ -30,6 +31,7 @@
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
     "pug": "^3.0.3"
   },
   "devDependencies": {
