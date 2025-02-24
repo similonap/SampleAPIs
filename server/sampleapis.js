@@ -88,31 +88,35 @@ schedule.scheduleJob('0 0 * * *', async () => {
 
 
 
-schedule.scheduleJob('*/1 * * * *', async () => {
-  const url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd%2Ceur%2Cgbp&precision=2&include_last_updated_at=true";
+schedule.scheduleJob('*/10 * * * *', async () => {
+  try {
+    const url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd%2Ceur%2Cgbp&precision=2&include_last_updated_at=true";
 
-  const response = await fetch(url);
-  const json = await response.json();
+    const response = await fetch(url);
+    const json = await response.json();
 
-  let bitcoin = await fs.readFile("api/bitcoin.json", "utf8");
+    let bitcoin = await fs.readFile("api/bitcoin.json", "utf8");
 
-  bitcoin = JSON.parse(bitcoin);
+    bitcoin = JSON.parse(bitcoin);
 
-  var currConver = value => currency(value, { symbol: "", separator: ",", decimal: "." });
+    var currConver = value => currency(value, { symbol: "", separator: ",", decimal: "." });
 
-  bitcoin.current.bpi.USD.rate_float = json.bitcoin.usd;
-  bitcoin.current.bpi.EUR.rate_float = json.bitcoin.eur;
-  bitcoin.current.bpi.GBP.rate_float = json.bitcoin.gbp;
-  bitcoin.current.bpi.USD.rate = currConver(json.bitcoin.usd).format();
-  bitcoin.current.bpi.EUR.rate = currConver(json.bitcoin.eur).format();
-  bitcoin.current.bpi.GBP.rate = currConver(json.bitcoin.gbp).format();
-  
-  bitcoin.current.time.updated = new Date(json.bitcoin.last_updated_at * 1000).toUTCString();
-  bitcoin.current.time.updatedISO = new Date(json.bitcoin.last_updated_at * 1000).toISOString();
-  bitcoin.current.time.updateduk = new Date(json.bitcoin.last_updated_at * 1000).toLocaleString("en-GB");
+    bitcoin.current.bpi.USD.rate_float = json.bitcoin.usd;
+    bitcoin.current.bpi.EUR.rate_float = json.bitcoin.eur;
+    bitcoin.current.bpi.GBP.rate_float = json.bitcoin.gbp;
+    bitcoin.current.bpi.USD.rate = currConver(json.bitcoin.usd).format();
+    bitcoin.current.bpi.EUR.rate = currConver(json.bitcoin.eur).format();
+    bitcoin.current.bpi.GBP.rate = currConver(json.bitcoin.gbp).format();
+    
+    bitcoin.current.time.updated = new Date(json.bitcoin.last_updated_at * 1000).toUTCString();
+    bitcoin.current.time.updatedISO = new Date(json.bitcoin.last_updated_at * 1000).toISOString();
+    bitcoin.current.time.updateduk = new Date(json.bitcoin.last_updated_at * 1000).toLocaleString("en-GB");
 
-  await fs.writeFile("api/bitcoin.json", JSON.stringify(bitcoin, null, 2));
-  await fs.writeFile("api/bitcoin.json.backup", JSON.stringify(bitcoin, null, 2));
+    await fs.writeFile("api/bitcoin.json", JSON.stringify(bitcoin, null, 2));
+    await fs.writeFile("api/bitcoin.json.backup", JSON.stringify(bitcoin, null, 2));
+  } catch (e) {
+
+  }
 
 });
 
