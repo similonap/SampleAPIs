@@ -142,6 +142,78 @@
             "alignment": "Neutral"
         }
     ],
+    "characters": [
+        {
+            "id": 1,
+            "name": "Harry Potter",
+            "house": "Gryffindor",
+            "role": "Student",
+            "description": "A brave young wizard known for his lightning-shaped scar and strong sense of justice."
+        },
+        {
+            "id": 2,
+            "name": "Hermione Granger",
+            "house": "Gryffindor",
+            "role": "Student",
+            "description": "Exceptionally talented and intelligent, she is one of Harry's closest friends."
+        },
+        {
+            "id": 3,
+            "name": "Ron Weasley",
+            "house": "Gryffindor",
+            "role": "Student",
+            "description": "Loyal and funny, he comes from a large magical family and is one of Harry’s best friends."
+        },
+        {
+            "id": 4,
+            "name": "Albus Dumbledore",
+            "house": "Gryffindor",
+            "role": "Headmaster of Hogwarts",
+            "description": "The wise and kind headmaster of Hogwarts who supports Harry and his friends."
+        },
+        {
+            "id": 5,
+            "name": "Severus Snape",
+            "house": "Slytherin",
+            "role": "Potions Master",
+            "description": "A strict and mysterious teacher who has a complicated relationship with his students."
+        },
+        {
+            "id": 6,
+            "name": "Draco Malfoy",
+            "house": "Slytherin",
+            "role": "Student",
+            "description": "A student in Slytherin who often competes with Harry and his friends."
+        },
+        {
+            "id": 7,
+            "name": "Rubeus Hagrid",
+            "house": "Gryffindor",
+            "role": "Keeper of Keys and Grounds",
+            "description": "A gentle half-giant who introduces Harry to the magical world and loves magical creatures."
+        },
+        {
+            "id": 8,
+            "name": "Minerva McGonagall",
+            "house": "Gryffindor",
+            "role": "Professor of Transfiguration",
+            "description": "A fair and strict professor who values rules but cares deeply for her students."
+        },
+        {
+            "id": 9,
+            "name": "Neville Longbottom",
+            "house": "Gryffindor",
+            "role": "Student",
+            "description": "A kind and shy student who loves Herbology and grows more confident over time."
+        },
+        {
+            "id": 10,
+            "name": "Luna Lovegood",
+            "house": "Ravenclaw",
+            "role": "Student",
+            "description": "Unique and dreamy, Luna is kind-hearted and sees the world in her own special way."
+        }
+    ],
     "potions": [
         {
             "id": 1,
