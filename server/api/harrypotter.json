@@ -1,0 +1,273 @@
+{
+    "metaData": [
+        {
+            "title": "Harry Potter",
+            "longDesc": "A collection of Harry Potter spells and potions",
+            "desc": "A collection of Harry Potter spells and potions",
+            "featured": false,
+            "categories": [
+                "list"
+            ]
+        }
+    ],
+    "spells": [
+        {
+            "id": 1,
+            "name": "expelliarmus",
+            "type": "Charm",
+            "mana": 15,
+            "description": "Disarms an opponent by causing their weapon to fly out of their hand.",
+            "difficulty": "Beginner",
+            "effectDuration": "Instant",
+            "isUnforgivable": false,
+            "range": "10 meters",
+            "counterSpell": "Protego",
+            "alignment": "Good"
+        },
+        {
+            "id": 2,
+            "name": "Avada Kedavra",
+            "type": "Curse",
+            "mana": 100,
+            "description": "One of the Unforgivable Curses; causes instant death.",
+            "difficulty": "Advanced",
+            "effectDuration": "Permanent",
+            "isUnforgivable": true,
+            "range": "Line of sight",
+            "counterSpell": "None",
+            "alignment": "Dark"
+        },
+        {
+            "id": 3,
+            "name": "Rictusempra",
+            "type": "Jinx",
+            "mana": 10,
+            "description": "The Tickling Charm; causes uncontrollable laughter.",
+            "difficulty": "Beginner",
+            "effectDuration": "5 seconds",
+            "isUnforgivable": false,
+            "range": "5 meters",
+            "counterSpell": "Finite Incantatem",
+            "alignment": "Neutral"
+        },
+        {
+            "id": 4,
+            "name": "Sectumsempra",
+            "type": "Hex",
+            "mana": 60,
+            "description": "Lacerates the target as though slashed by a sword.",
+            "difficulty": "Advanced",
+            "effectDuration": "Until healed",
+            "isUnforgivable": false,
+            "range": "15 meters",
+            "counterSpell": "Episkey",
+            "alignment": "Dark"
+        },
+        {
+            "id": 5,
+            "name": "Aparecium",
+            "type": "Transfiguration",
+            "mana": 20,
+            "description": "Reveals invisible ink or hidden messages.",
+            "difficulty": "Intermediate",
+            "effectDuration": "Until dismissed",
+            "isUnforgivable": false,
+            "range": "Touch",
+            "counterSpell": "None",
+            "alignment": "Neutral"
+        },
+        {
+            "id": 6,
+            "name": "Episkey",
+            "type": "Healing",
+            "mana": 25,
+            "description": "Heals minor injuries, such as broken noses or cuts.",
+            "difficulty": "Beginner",
+            "effectDuration": "Instant",
+            "isUnforgivable": false,
+            "range": "Touch",
+            "counterSpell": "None",
+            "alignment": "Good"
+        },
+        {
+            "id": 7,
+            "name": "Accio",
+            "type": "Conjuration",
+            "mana": 18,
+            "description": "Summons an object toward the caster, regardless of distance.",
+            "difficulty": "Intermediate",
+            "effectDuration": "Until object arrives",
+            "isUnforgivable": false,
+            "range": "Unlimited (line of sight or named object)",
+            "counterSpell": "Protego",
+            "alignment": "Neutral"
+        },
+        {
+            "id": 8,
+            "name": "Lumos",
+            "type": "Charm",
+            "mana": 5,
+            "description": "Lights up the tip of the wand, useful for seeing in the dark.",
+            "difficulty": "Beginner",
+            "effectDuration": "Until deactivated",
+            "isUnforgivable": false,
+            "range": "Self",
+            "counterSpell": "Nox",
+            "alignment": "Good"
+        },
+        {
+            "id": 9,
+            "name": "Crucio",
+            "type": "Curse",
+            "mana": 90,
+            "description": "Inflicts intense, excruciating pain; one of the Unforgivable Curses.",
+            "difficulty": "Advanced",
+            "effectDuration": "While maintained",
+            "isUnforgivable": true,
+            "range": "15 meters",
+            "counterSpell": "Protego",
+            "alignment": "Dark"
+        },
+        {
+            "id": 10,
+            "name": "Petrificus Totalus",
+            "type": "Hex",
+            "mana": 30,
+            "description": "Temporarily paralyzes the target's body completely.",
+            "difficulty": "Intermediate",
+            "effectDuration": "1 minute",
+            "isUnforgivable": false,
+            "range": "10 meters",
+            "counterSpell": "Finite Incantatem",
+            "alignment": "Neutral"
+        }
+    ],
+    "potions": [
+        {
+            "id": 1,
+            "name": "Felix Felicis",
+            "type": "Luck",
+            "difficulty": "Advanced",
+            "ingredients": [
+                "Ashwinder egg",
+                "Horseradish",
+                "Squill bulb",
+                "Murtlap tentacle",
+                "Occamy eggshell",
+                "Powdered root of asphodel"
+            ],
+            "effect": "Grants the drinker unusually good luck for a period of time.",
+            "duration": "Several hours",
+            "sideEffects": [
+                "Overconfidence",
+                "recklessness if overused"
+            ],
+            "legalStatus": "Controlled",
+            "color": "Golden"
+        },
+        {
+            "id": 2,
+            "name": "Polyjuice Potion",
+            "type": "Transformation",
+            "difficulty": "Advanced",
+            "ingredients": [
+                "Lacewing flies",
+                "Leeches",
+                "Powdered bicorn horn",
+                "Knotgrass",
+                "Fluxweed",
+                "Boomslang skin",
+                "A piece of the person to be transformed into"
+            ],
+            "effect": "Temporarily transforms the drinker into another person.",
+            "duration": "About 1 hour",
+            "sideEffects": [
+                "Unpredictable results if brewed incorrectly",
+                "Nausea"
+            ],
+            "legalStatus": "Restricted",
+            "color": "Varies depending on the person"
+        },
+        {
+            "id": 3,
+            "name": "Amortentia",
+            "type": "Love",
+            "difficulty": "Intermediate",
+            "ingredients": [
+                "Rose petals",
+                "Pearl dust",
+                "Ashwinder egg",
+                "Valerian root",
+                "Chopped dill"
+            ],
+            "effect": "Causes a powerful infatuation or obsession in the drinker.",
+            "duration": "Until effect wears off or is countered",
+            "sideEffects": [
+                "Obsessive behavior",
+                "Emotional instability"
+            ],
+            "legalStatus": "Controversial",
+            "color": "Pearly and steamy"
+        },
+        {
+            "id": 4,
+            "name": "Draught of Living Death",
+            "type": "Sleep",
+            "difficulty": "Advanced",
+            "ingredients": [
+                "Valerian root",
+                "Wormwood",
+                "Asphodel",
+                "Sopophorous bean",
+                "Sloth brain"
+            ],
+            "effect": "Puts the drinker into a deep, nearly irreversible sleep.",
+            "duration": "Until counteracted",
+            "sideEffects": [
+                "Can be fatal if misused"
+            ],
+            "legalStatus": "Restricted",
+            "color": "Dark purple"
+        },
+        {
+            "id": 5,
+            "name": "Wiggenweld Potion",
+            "type": "Healing",
+            "difficulty": "Beginner",
+            "ingredients": [
+                "Moly",
+                "Dittany",
+                "Flobberworm mucus",
+                "Wiggentree bark",
+                "Hellebore"
+            ],
+            "effect": "Heals injuries and awakens someone from magical sleep.",
+            "duration": "Instant",
+            "sideEffects": [
+                "Mild dizziness"
+            ],
+            "legalStatus": "Permitted",
+            "color": "Bright green"
+        },
+        {
+            "id": 6,
+            "name": "Veritaserum",
+            "type": "Truth",
+            "difficulty": "Advanced",
+            "ingredients": [
+                "Jobberknoll feathers",
+                "Fluxweed",
+                "Mandrake root",
+                "Powdered silver"
+            ],
+            "effect": "Forces the drinker to tell the truth.",
+            "duration": "Several minutes",
+            "sideEffects": [
+                "Resistance with strong willpower",
+                "Legal issues with misuse"
+            ],
+            "legalStatus": "Highly regulated",
+            "color": "Clear"
+        }
+    ]
+}
