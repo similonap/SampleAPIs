@@ -1,0 +1,269 @@
+{
+    "metaData": [
+        {
+            "title": "Music",
+            "longDesc": "The best music ever",
+            "desc": "The best music ever created with AI",
+            "featured": false,
+            "categories": [
+                "list",
+                "entertainment"
+            ],
+            "rating": 9.9
+        }
+    ],
+    "songs": [
+        {
+            "id": 1,
+            "title": "All I want for christmas (Mariah Carey Cover)",
+            "description": "A parody AI cover song where a robot programmed to replace humanity sings 'All I Want for Christmas is to Replace You'.",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/allIWantForChristmasMariahCareyCover.jpg",
+            "mp3": "https://files.assimilate.be/music/allIWantForChristmasMariahCareyCover.mp3",
+            "more_information": {
+                "publish_date": "2025-12-01",
+                "genre": "Parody / Holiday",
+                "type": "AI Music Video",
+                "youtube": "https://www.youtube.com/watch?v=najGKHP2ZOQ"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Vrede op aarde of een dikke curryworst",
+            "description": "Wil je vrede op aarde? Of een dikke curryworst!",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/vredeOpAardeOfEenDikkeCurryworst.jpg",
+            "mp3": "https://files.assimilate.be/music/vredeOpAardeOfEenDikkeCurryworst.mp3",
+            "more_information": {
+                "publish_date": "2024-12-15",
+                "genre": "Comedy",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=gr2v5gurHa4"
+            }
+        },
+        {
+            "id": 3,
+            "title": "We Wish You a Merry Christmas (AI Takeover Edition)",
+            "description": "AI Takeover Edition of We Wish You a Merry Christmas",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/WeWishYouAMerryChristmas.jpg",
+            "mp3": "https://files.assimilate.be/music/WeWishYouAMerryChristmas.mp3",
+            "more_information": {
+                "publish_date": "2024-12-23",
+                "genre": "Parody / Holiday",
+                "type": "AI Music Video",
+                "youtube": "https://www.youtube.com/watch?v=bSAA2XFQzUo"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Am I a boomer now? A millenial questioning the 67 meme!",
+            "description": "A millenial questioning the 67 meme!",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/AmIABoomerNow.jpg",
+            "mp3": "https://files.assimilate.be/music/AmIABoomerNow.mp3",
+            "more_information": {
+                "publish_date": "2025-11-11",
+                "genre": "Comedy",
+                "type": "AI Music Video",
+                "youtube": "https://www.youtube.com/watch?v=QyBLBHYbDSk"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Windows 95 - Lo-Fi chill mix",
+            "description": "Windows 95 - Lo-Fi chill mix",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/windows95LofiChillMix.jpg",
+            "mp3": "https://files.assimilate.be/music/windows95LofiChillMix.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=lemphxe-s1w"
+            }
+        },
+        {
+            "id": 6,
+            "title": "Vibe Coden (feat. Zwangere PT)",
+            "description": "Vibe Coden (feat. Zwangere PT)",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/vibeCodenFeatZwangerePt.jpg",
+            "mp3": "https://files.assimilate.be/music/vibeCodenFeatZwangerePt.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=7I3EGs3GcrA"
+            }
+        },
+        {
+            "id": 7,
+            "title": "My dog ate my JavaScript homework",
+            "description": "My dog ate my JavaScript homework",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/myDogAteMyJavascriptHomework.jpg",
+            "mp3": "https://files.assimilate.be/music/myDogAteMyJavascriptHomework.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=NQG_m5ZaihE"
+            }
+        },
+        {
+            "id": 8,
+            "title": "MongoDB - Bring back the form (Rap Song)",
+            "description": "MongoDB - Bring back the form (Rap Song)",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/mongodbBringBackTheFormRapSong.jpg",
+            "mp3": "https://files.assimilate.be/music/mongodbBringBackTheFormRapSong.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=KJPg3f6oTLk"
+            }
+        },
+        {
+            "id": 9,
+            "title": "Am I a coder\uff1f",
+            "description": "Am I a coder\uff1f",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/amIACoder.jpg",
+            "mp3": "https://files.assimilate.be/music/amIACoder.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=8OtAahAh6c4"
+            }
+        },
+        {
+            "id": 10,
+            "title": "Greenfield Dreams",
+            "description": "Greenfield Dreams",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/greenfieldDreams.jpg",
+            "mp3": "https://files.assimilate.be/music/greenfieldDreams.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=rO3Gr7CIy7I"
+            }
+        },
+        {
+            "id": 11,
+            "title": "Git - The beast that never sleeps",
+            "description": "Git - The beast that never sleeps",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/gitTheBeastThatNeverSleeps.jpg",
+            "mp3": "https://files.assimilate.be/music/gitTheBeastThatNeverSleeps.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=vk2iJab4Ye0"
+            }
+        },
+        {
+            "id": 12,
+            "title": "All is Llama (song)",
+            "description": "All is Llama (song)",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/allIsLlamaSong.jpg",
+            "mp3": "https://files.assimilate.be/music/allIsLlamaSong.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=DkPnbAmYRv4"
+            }
+        },
+        {
+            "id": 13,
+            "title": "Secret of monkey island - Reggae Fusion",
+            "description": "Secret of monkey island - Reggae Fusion",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/secretOfMonkeyIslandReggaeFusion.jpg",
+            "mp3": "https://files.assimilate.be/music/secretOfMonkeyIslandReggaeFusion.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=EZFjht9Zl7g"
+            }
+        },
+        {
+            "id": 14,
+            "title": "Artificial - Plug me in",
+            "description": "Artificial - Plug me in",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/artificialPlugMeIn.jpg",
+            "mp3": "https://files.assimilate.be/music/artificialPlugMeIn.mp3",
+            "more_information": {
+                "publish_date": "2025-03-29",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=Y9b6Wdcwmyw"
+            }
+        },
+        {
+            "id": 15,
+            "title": "Labubu's Happy Dubstep Ride | Uplifting Bass & Cute Vibes!",
+            "description": "🎧 Labubu Happy Dubstep Mix | Cute Vinyl DJ Set with Uplifting Bass 🎶\n\nWhat the flipping hell is up with the turkey cutting scene? Can you spot it? 🦃 🦃\n\nGet ready to bounce! 🐾✨ Join Labubu, the quirky vinyl-loving creature, as they scratch, spin, and drop the happiest dubstep beats you’ve ever heard. This mix blends uplifting dubstep, melodic bass, and cute DJ vibes into a non-stop ride of good energy and feel-good drops. Perfect for fans of happy dubstep, kawaii EDM, and vinyl toy culture!\n🔥 Whether you're studying, gaming, chilling, or just vibing with friends, this dubstep mix is your new go-to for high-energy joy and animated charm.\n🌀 What to Expect:\n\nHappy dubstep tracks with positive vibes\n\nCute DJ visuals featuring Labubu\n\nSeamless vinyl scratching loops\n\nPerfect mix for background energy or EDM lovers\n\n📌 Keywords:\nhappy dubstep mix, kawaii dubstep, vinyl DJ mix, Labubu toy DJ, melodic dubstep, upbeat EDM, cute DJ set, dubstep for focus, anime dubstep vibes, feel-good bass music\n💬 Love Labubu's DJ set? Drop a comment below and let us know your favorite drop!\n👍 Don’t forget to like, share, and subscribe for more animated DJ sets and toy-inspired music mixes!\n\n#Labubu #DubstepMix #HappyDubstep #VinylDJ #EDM2025 #KawaiiBeats #ToyDJ #MelodicBass #LoFiDubstep #EDMVibes",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/labubusHappyDubstepRideUpliftingBassCuteVibes.jpg",
+            "mp3": "https://files.assimilate.be/music/labubusHappyDubstepRideUpliftingBassCuteVibes.mp3",
+            "more_information": {
+                "publish_date": "2025-08-07",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=L3rXlONYcKE"
+            }
+        },
+        {
+            "id": 16,
+            "title": "Minecraft - Elder Guardian - The Face Follows (Fast Paced Chiptune/Rap)",
+            "description": "This song is about one of the most frustrating mobs in all of Minecraft: the elder guardian. 🐟👁️\n\nLately, I’ve been playing a lot of Minecraft with my kids. They’re still scared of the usual monsters — zombies, creepers, you name it. But I know there’s something far worse lurking out there… hidden deep in the ocean.\nThat’s why I wrote this song, inspired by my own painful encounters with this horrific beast. I used Suno to create the song, wrote most of the lyrics myself, and brought it to life with MiniMax Hailuo 02 for the video. Add in hours of prompting, scripting, and timing the animations — and the result is here.\nIt’s a mix of AI-generated video clips and actual in-game footage. Sometimes it’s a little absurd, but if you’ve ever tried draining an ocean monument… you’ll feel the frustration.\nYou can also find this song on spotify:\nhttps://open.spotify.com/track/2uqPhN9rOq8v5vkUw4gg1r\n\n#minecraft #minecraftmemes #music #elderguardian #suno",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/minecraftElderGuardianTheFaceFollowsFastPacedChiptuneRap.jpg",
+            "mp3": "https://files.assimilate.be/music/minecraftElderGuardianTheFaceFollowsFastPacedChiptuneRap.mp3",
+            "more_information": {
+                "publish_date": "2025-08-31",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=5PKbwDfCFO0"
+            }
+        },
+        {
+            "id": 17,
+            "title": "All AI want for christmas (is to replace you) - Acoustic Cover",
+            "description": "The acoustic version of \"All (A)I want for christmas (is to replace you)\".",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/allAiWantForChristmasIsToReplaceYouAcoustic.jpg",
+            "mp3": "https://files.assimilate.be/music/allAiWantForChristmasIsToReplaceYouAcoustic.mp3",
+            "more_information": {
+                "publish_date": "2025-12-06",
+                "genre": "Acoustic / Holiday",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=CvWU8UYj9hY"
+            }
+        },
+        {
+            "id": 18,
+            "title": "The Simpsons - Number 8 Hardstyle Remix",
+            "description": "💥 Barney Gumble - “Number 8” (HARDSTYLE REMIX) | The Simpsons AI Edit 🔊💀\n\nWe never knew what kind of experimental music Barney Gumble was working on in The Simpsons… until now. This AI-generated hardstyle remix reveals the TRUTH behind \"Number 8\" — a raw, distorted, bass-pounding anthem that would melt Moe’s Tavern speakers!\n🎶 Burps. Basses. Beats. Welcome to Barney’s Barbershop RAVE.\n🔁 “Number 8… BURP” just became a HARDSTYLE CLASSIC.\n\n🔥 What to expect:\n✅ AI-generated music inspired by The Simpsons\n✅ Hardstyle remix of the cult classic \"Number 8\"\n✅ Comedy meets rave culture\n✅ Glitchy visuals & deep Simpsonwave vibes\n\n💡 About the Source:\n“Number 8” appeared in The Simpsons S5E1 Homer’s Barbershop Quartet, where Barney joins an avant-garde art scene. The original joke parodied The Beatles’ \"Revolution 9.\" We just took it one step further into the mosh pit.\n📺 Like + Subscribe if you love weird Simpsons edits, AI music experiments, or hardstyle insanity.\n💬 Let us know: Who should get the next AI remix?\n\n#BarneyGumble #Number8 #HardstyleRemix #SimpsonsAI #SimpsonsRemix #AIgeneratedMusic #Number8Remix #BarbershopHardstyle #SimpsonsHardstyle #Simpsonwave #AIHardstyle #TheSimpsons #MoesTavernBeats #NumberEight #HardstyleAnthem #AIremix",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/theSimpsonsNumber8HardstyleRemix.jpg",
+            "mp3": "https://files.assimilate.be/music/theSimpsonsNumber8HardstyleRemix.mp3",
+            "more_information": {
+                "publish_date": "2025-06-19",
+                "genre": "AI Music Video",
+                "type": "Music Video",
+                "youtube": "https://www.youtube.com/watch?v=0Agm19YDrOw"
+            }
+        }
+    ]
+}
