@@ -292,6 +292,19 @@
                 "type": "Music Video",
                 "youtube": "https://www.youtube.com/watch?v=8Q0a0hwV4Yw"
             }
+        },
+        {
+            "id": 21,
+            "title": "nachtelijke invasie",
+            "description": "An electro swing track with Dutch lyrics exploring themes of nighttime invasions, dystopian imagery, and surreal narratives.",
+            "credits": 100,
+            "thumbnail": "https://files.assimilate.be/music/nachtelijkeInvasieElectroSwing.jpg",
+            "mp3": "https://files.assimilate.be/music/nachtelijkeInvasieElectroSwing.mp3",
+            "more_information": {
+                "publish_date": "2025-12-05",
+                "genre": "Electro Swing",
+                "type": "AI Music"
+            }
         }
     ]
 }
